@@ -1,0 +1,2727 @@
+Invalid HTTP_HOST header: '39.108.148.171:8000'. You may need to add '39.108.148.171' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Aug/2020 09:06:57] "GET / HTTP/1.1" 400 59503
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 04, 2020 - 09:05:37
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 04, 2020 - 09:06:51
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[04/Aug/2020 09:07:34] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:07:34] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[04/Aug/2020 09:07:34] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[04/Aug/2020 09:07:34] "GET /static/css/style.css HTTP/1.1" 200 16596
+[04/Aug/2020 09:07:34] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[04/Aug/2020 09:07:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[04/Aug/2020 09:07:35] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[04/Aug/2020 09:07:35] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[04/Aug/2020 09:07:35] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[04/Aug/2020 09:07:35] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[04/Aug/2020 09:07:35] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[04/Aug/2020 09:07:35] "GET /static/js/app.js HTTP/1.1" 200 3703
+[04/Aug/2020 09:07:35] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:07:35] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[04/Aug/2020 09:07:36] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[04/Aug/2020 09:07:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[04/Aug/2020 09:07:37] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[04/Aug/2020 09:07:38] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[04/Aug/2020 09:09:04] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:09:05] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/css/style.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:09:05] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 09:09:05] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:09:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:09:06] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 09:09:06] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:09:25] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:09:25] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+Not Found: /index.html
+[04/Aug/2020 09:09:39] "GET /index.html HTTP/1.1" 404 2190
+Not Found: /favicon.ico
+[04/Aug/2020 09:09:39] "GET /favicon.ico HTTP/1.1" 404 2193
+[04/Aug/2020 09:09:42] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:09:42] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:09:42] "GET /static/css/style.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:42] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:09:43] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:09:43] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:09:43] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 09:09:45] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:09:45] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:10:39] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:10:39] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/css/style.css HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:10:39] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 09:10:39] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:10:42] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:10:42] "GET /static/css/style.css HTTP/1.1" 200 16596
+[04/Aug/2020 09:10:42] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[04/Aug/2020 09:10:42] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[04/Aug/2020 09:10:42] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[04/Aug/2020 09:10:42] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[04/Aug/2020 09:10:42] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[04/Aug/2020 09:10:43] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[04/Aug/2020 09:10:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[04/Aug/2020 09:10:43] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[04/Aug/2020 09:10:43] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[04/Aug/2020 09:10:43] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[04/Aug/2020 09:10:43] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[04/Aug/2020 09:10:43] "GET /static/js/app.js HTTP/1.1" 200 3703
+[04/Aug/2020 09:10:44] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:10:44] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[04/Aug/2020 09:10:44] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[04/Aug/2020 09:10:44] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+Not Found: /favicon.ico
+[04/Aug/2020 09:10:46] "GET /favicon.ico HTTP/1.1" 404 2193
+[04/Aug/2020 09:10:49] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:10:49] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:10:51] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:10:51] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:10:52] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:10:52] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:11:19] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:11:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/css/style.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:11:19] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:19] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:20] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 09:11:20] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:11:29] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:11:29] "GET /static/css/style.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:29] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:29] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:29] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:29] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:11:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:11:29] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:11:30] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 09:11:30] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:12:35] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:12:35] "GET /static/css/style.css HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 09:12:35] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:12:49] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:12:49] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:12:50] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 09:12:50] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[04/Aug/2020 09:12:50] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/classie.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:50] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:51] "GET /static/js/app.js HTTP/1.1" 304 0
+[04/Aug/2020 09:12:51] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[04/Aug/2020 09:12:51] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[04/Aug/2020 10:04:25] "GET / HTTP/1.1" 200 5435
+[04/Aug/2020 11:48:28] "GET / HTTP/1.1" 200 5435
+Not Found: /explicit_not_exist_path
+[04/Aug/2020 11:48:28] "GET /explicit_not_exist_path HTTP/1.1" 404 2229
+Not Found: /index.html
+[04/Aug/2020 11:48:28] "GET /index.html HTTP/1.1" 404 2190
+Not Found: /index.php
+[04/Aug/2020 11:48:28] "GET /index.php HTTP/1.1" 404 2187
+Not Found: /index.jsp
+[04/Aug/2020 11:48:28] "GET /index.jsp HTTP/1.1" 404 2187
+[04/Aug/2020 11:48:28] "GET /admin/ HTTP/1.1" 302 0
+[04/Aug/2020 11:48:29] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /favicon.ico
+[04/Aug/2020 11:48:29] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /robots.txt
+[04/Aug/2020 11:48:29] "GET /robots.txt HTTP/1.1" 404 2190
+[04/Aug/2020 11:48:29] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[04/Aug/2020 11:48:29] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[04/Aug/2020 11:48:29] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[04/Aug/2020 11:48:29] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1692
+[04/Aug/2020 11:48:29] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1710
+[04/Aug/2020 11:48:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[04/Aug/2020 11:48:30] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[04/Aug/2020 11:48:30] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /404.html
+[04/Aug/2020 11:48:30] "GET /404.html HTTP/1.1" 404 2184
+Not Found: /500.html
+[04/Aug/2020 11:48:30] "GET /500.html HTTP/1.1" 404 2184
+Not Found: /stylesheets/application.css
+[04/Aug/2020 11:48:30] "GET /stylesheets/application.css HTTP/1.1" 404 2241
+Not Found: /r/cms/www/red/img/prompt.jpg
+[04/Aug/2020 11:48:30] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 2244
+Not Found: /r/cms/www/red/style/swiper.min.js
+[04/Aug/2020 11:48:30] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 2259
+Not Found: /wcm/
+[04/Aug/2020 11:48:30] "GET /wcm/ HTTP/1.1" 404 2172
+Not Found: /phpMyAdmin/
+[04/Aug/2020 11:48:30] "GET /phpMyAdmin/ HTTP/1.1" 404 2193
+Not Found: /phpmyadmin/
+[04/Aug/2020 11:48:30] "GET /phpmyadmin/ HTTP/1.1" 404 2193
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Aug/2020 12:32:19] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[04/Aug/2020 13:23:23] code 400, message Bad request syntax ('\x04\x01\x00\x19h/\x11¡\x00')
+[04/Aug/2020 13:23:23] " h/¡ " 400 -
+[2020-08-04 13:23:23,390] - Broken pipe from ('80.82.65.74', 42538)
+
+[04/Aug/2020 13:25:24] code 400, message Bad request syntax ('\x05\x01\x00')
+[04/Aug/2020 13:25:24] " " 400 -
+[2020-08-04 13:25:24,882] - Broken pipe from ('80.82.65.74', 43700)
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Aug/2020 20:24:03] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[04/Aug/2020 21:09:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[04/Aug/2020 21:09:59] "  /*à     Cookie: mstshash=Administr" 400 -
+[04/Aug/2020 21:26:12] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[04/Aug/2020 21:26:12] "  à          " 400 -
+----------------------------------------
+Exception happened during processing of request from ('185.250.220.170', 59769)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[04/Aug/2020 21:44:30] "HEAD /robots.txt HTTP/1.0" 404 2200
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Aug/2020 22:13:01] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[05/Aug/2020 00:50:35] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 01:54:55] "GET /?nsukey=YGc5BVOfClzG7ycc%2BletmpZEehBfC14OEd9omQ%2FzwO0R1EpTTJkzFkzqmf1OVG%2BPFAKlhvDalFRWXOUqjFlUvR8pGsTDWPzJcv3Ua10avWucV0WfBz%2FjaTtrCE8cXIKAbPeNEM8558NnW8fVO4dmK9DbLc5fXuB8YzN90%2FXmIQvpfPLRemvH8jJJyVIurjiqzyOASIbZijWsYUmm529rhw%3D%3D HTTP/1.1" 200 5435
+[05/Aug/2020 01:54:55] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[05/Aug/2020 01:54:55] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[05/Aug/2020 01:54:55] "GET /static/css/style.css HTTP/1.1" 200 16596
+[05/Aug/2020 01:54:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[05/Aug/2020 01:54:55] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[05/Aug/2020 01:54:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[05/Aug/2020 01:54:55] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[05/Aug/2020 01:54:56] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[05/Aug/2020 01:54:56] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[05/Aug/2020 01:54:56] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[05/Aug/2020 01:54:56] "GET /static/js/app.js HTTP/1.1" 200 3703
+[05/Aug/2020 01:54:56] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[05/Aug/2020 01:54:56] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[05/Aug/2020 01:54:56] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[05/Aug/2020 01:54:56] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[05/Aug/2020 01:54:57] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[05/Aug/2020 01:54:57] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[05/Aug/2020 01:55:07] "GET /?nsukey=82VZANyrNfj%2BGE9q7G6wbzEH5dXwvdtOsDBK4pMpdGuQByWo0h9%2Bke5uYeFBELiSxkSZMKoZmBo4WDUTJI3NytSnPoJXOO28vj3NpOPgS02dnRJrfB1S5Ghl5lB1os24JkezqvF6LEaZrXjsoWs5laZKpfjfXqafkEIey7hrNrJ2%2BoglB7hznHae6OcQ7cVjIVa%2FEki9mPkWI7gMS%2FKEbw%3D%3D HTTP/1.1" 200 5435
+[05/Aug/2020 01:55:07] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[05/Aug/2020 01:55:07] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[05/Aug/2020 01:55:07] "GET /static/css/style.css HTTP/1.1" 200 16596
+[05/Aug/2020 01:55:08] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[05/Aug/2020 01:55:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[05/Aug/2020 01:55:16] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 01:55:16] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[05/Aug/2020 01:55:16] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[05/Aug/2020 01:55:16] "GET /static/css/style.css HTTP/1.1" 200 16596
+[05/Aug/2020 01:55:17] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[05/Aug/2020 01:55:17] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[05/Aug/2020 01:55:17] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[05/Aug/2020 01:55:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[05/Aug/2020 01:55:17] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[05/Aug/2020 01:55:17] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[05/Aug/2020 01:55:17] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[05/Aug/2020 01:55:18] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[05/Aug/2020 01:55:18] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[05/Aug/2020 01:55:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[05/Aug/2020 01:55:18] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[05/Aug/2020 01:55:18] "GET /static/js/app.js HTTP/1.1" 200 3703
+[05/Aug/2020 01:55:21] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[05/Aug/2020 01:55:21] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[05/Aug/2020 01:55:21] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /problem/1/
+[05/Aug/2020 01:56:56] "GET /problem/1/ HTTP/1.1" 404 2190
+Not Found: /problem/2
+[05/Aug/2020 01:56:59] "GET /problem/2 HTTP/1.1" 404 2187
+[05/Aug/2020 02:02:40] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 02:02:40] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[05/Aug/2020 02:05:22] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 02:05:22] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+Not Found: /favicon.ico
+[05/Aug/2020 02:05:22] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /problem/1/
+[05/Aug/2020 02:09:54] "GET /problem/1/ HTTP/1.1" 404 2190
+Not Found: /problem/2
+[05/Aug/2020 02:09:59] "GET /problem/2 HTTP/1.1" 404 2187
+[05/Aug/2020 02:10:04] "GET /?nsukey=6YclE%2B96WNaK%2F4R%2BnZPaNmDyoPmX2erG%2FeDpMqlCSmi%2FtCvpuW0QflCBak6XIV9LIUk1Bw8VYlYFGkeq%2FJkIePunDY6Fmn7Tg5kKx%2BuAYK1F2RUg9P91Yu9Zdn62miUNASiqI%2F1cvQLJdLfwzS%2BoxDhaubZAYp2OqAnfs4clxCz2zwz4dp0AMw6bzlEUK7O4Z7%2BovhB8MA7rlgoralLF%2Bg%3D%3D HTTP/1.1" 200 5435
+[05/Aug/2020 02:10:04] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+Not Found: /problem/1
+[05/Aug/2020 02:10:15] "GET /problem/1 HTTP/1.1" 404 2187
+Not Found: /problem/1
+[05/Aug/2020 02:10:18] "GET /problem/1 HTTP/1.1" 404 2187
+Not Found: /problem/2
+[05/Aug/2020 02:10:29] "GET /problem/2 HTTP/1.1" 404 2187
+Not Found: /problem/1
+[05/Aug/2020 02:10:49] "GET /problem/1 HTTP/1.1" 404 2187
+[05/Aug/2020 02:11:41] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 02:11:41] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[05/Aug/2020 02:11:41] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[05/Aug/2020 02:11:41] "GET /static/css/style.css HTTP/1.1" 200 16596
+[05/Aug/2020 02:11:42] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[05/Aug/2020 02:11:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[05/Aug/2020 02:11:42] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[05/Aug/2020 02:11:43] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[05/Aug/2020 02:11:43] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[05/Aug/2020 02:11:43] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[05/Aug/2020 02:11:43] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[05/Aug/2020 02:11:43] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[05/Aug/2020 02:11:43] "GET /static/js/app.js HTTP/1.1" 200 3703
+[05/Aug/2020 02:11:43] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[05/Aug/2020 02:11:44] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[05/Aug/2020 02:11:44] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[05/Aug/2020 02:11:44] "GET /static/css/style.css HTTP/1.1" 200 16596
+[05/Aug/2020 02:11:45] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[05/Aug/2020 02:11:46] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+Not Found: /favicon.ico
+[05/Aug/2020 02:11:46] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /problem/2
+[05/Aug/2020 02:11:53] "GET /problem/2 HTTP/1.1" 404 2187
+Not Found: /favicon.ico
+[05/Aug/2020 02:11:53] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /problem/1
+[05/Aug/2020 02:12:08] "GET /problem/1 HTTP/1.1" 404 2187
+Not Found: /favicon.ico
+[05/Aug/2020 02:12:08] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /index.html
+[05/Aug/2020 02:21:26] "GET /index.html HTTP/1.1" 404 2190
+Not Found: /problem/1
+[05/Aug/2020 02:22:12] "GET /problem/1 HTTP/1.1" 404 2187
+Not Found: /index.html
+[05/Aug/2020 02:25:41] "GET /index.html HTTP/1.1" 404 2190
+[05/Aug/2020 02:25:51] "GET / HTTP/1.0" 200 5435
+Not Found: /index.html
+[05/Aug/2020 02:25:53] "GET /index.html HTTP/1.1" 404 2190
+Not Found: /problem/1/
+[05/Aug/2020 02:26:18] "GET /problem/1/ HTTP/1.1" 404 2190
+Not Found: /problem/2
+[05/Aug/2020 02:26:22] "GET /problem/2 HTTP/1.1" 404 2187
+[05/Aug/2020 07:07:08] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03ð\x91(Í>K\x90\x98\x8fµ\x87AQ¢~Ë\x07³`\x99üäûô\x02Ëó¼\x87\xa0z\x85\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\tÀ\x14À')
+[05/Aug/2020 07:07:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Aug/2020 07:31:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[05/Aug/2020 07:31:36] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Aug/2020 07:55:35] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[05/Aug/2020 08:05:46] code 400, message Bad request syntax ('&&&&y\x860\x14<ÒiÖHË\x89\x02ÀË9³¥\x07')
+[05/Aug/2020 08:05:46] "&&&&y0<ÒiÖHËÀË9³¥" 400 -
+[05/Aug/2020 10:48:49] "GET / HTTP/1.1" 200 5435
+Not Found: /ip.ws.126.net:443
+[05/Aug/2020 12:44:17] "CONNECT ip.ws.126.net:443 HTTP/1.1" 404 1666
+[05/Aug/2020 14:11:24] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 14:51:36] "GET / HTTP/1.0" 200 5435
+Not Found: /nice ports,/Trinity.txt.bak
+[05/Aug/2020 14:51:37] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2252
+[05/Aug/2020 14:51:39] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[05/Aug/2020 14:51:39] "  " 400 -
+[05/Aug/2020 14:51:39] "OPTIONS / HTTP/1.0" 200 5435
+[05/Aug/2020 14:51:40] code 400, message Bad request version ('RTSP/1.0')
+[05/Aug/2020 14:51:40] "OPTIONS / RTSP/1.0" 400 -
+[05/Aug/2020 14:51:45] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[05/Aug/2020 14:51:45] "  (rþ          |                    " 400 -
+[05/Aug/2020 14:51:50] code 400, message Bad HTTP/0.9 request type ('\x00')
+[05/Aug/2020 14:51:50] "          versionbind   " 400 -
+[05/Aug/2020 14:51:51] code 400, message Bad request syntax ('HELP')
+[05/Aug/2020 14:51:51] "HELP" 400 -
+[05/Aug/2020 14:51:51] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[05/Aug/2020 14:51:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Aug/2020 14:51:56] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[05/Aug/2020 14:51:56] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[05/Aug/2020 14:51:56] code 400, message Bad request syntax ('\x01default')
+[05/Aug/2020 14:51:56] "default" 400 -
+[05/Aug/2020 14:51:56] code 400, message Bad request version ('SIP/2.0')
+[05/Aug/2020 14:51:56] "OPTIONS sip:nm SIP/2.0" 400 -
+[05/Aug/2020 14:52:02] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[05/Aug/2020 14:52:02] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[05/Aug/2020 14:52:02] "GET /?CAVIT HTTP/1.1" 200 5435
+Not Found: /sdk
+[05/Aug/2020 14:57:26] "POST /sdk HTTP/1.1" 404 2170
+[05/Aug/2020 14:57:36] code 400, message Bad request version ("»0@ô\x10ª}õEÔÒ-±_¸b;N\x12òß¤\x93¾¹£{ßÌ\x18³\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[05/Aug/2020 14:57:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /nmaplowercheck1596639444
+[05/Aug/2020 14:57:48] "GET /nmaplowercheck1596639444 HTTP/1.1" 404 2232
+Not Found: /HNAP1
+[05/Aug/2020 14:57:48] "GET /HNAP1 HTTP/1.1" 404 2175
+Not Found: /evox/about
+[05/Aug/2020 14:57:49] "GET /evox/about HTTP/1.1" 404 2190
+[05/Aug/2020 14:58:02] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 16:07:16] "GET / HTTP/1.0" 200 5435
+Not Found: /www.baidu.com:443
+[05/Aug/2020 16:43:51] "CONNECT www.baidu.com:443 HTTP/1.0" 404 1662
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Aug/2020 17:35:03] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[05/Aug/2020 18:28:27] "GET / HTTP/1.1" 200 5435
+----------------------------------------
+Exception happened during processing of request from ('172.105.89.161', 57515)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[05/Aug/2020 21:48:04] "GET / HTTP/1.1" 200 5435
+[05/Aug/2020 22:12:34] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03<\x89Ê\tï¸~\x1a8\x89ÿ\x87IÉ\x06H2°\x0bÆ\x8e\x0còORD\x1e<!MÌß u0F ×oÖ\x96Aº ÃèÑT\x01Î\x1dgS¦\x9eç$\x9a/Å\x1d=ÛHÿ\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[05/Aug/2020 22:12:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Aug/2020 03:17:58] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[06/Aug/2020 07:42:04] "GET / HTTP/1.1" 200 5435
+Not Found: /img/favicon.ico
+[06/Aug/2020 07:42:04] "GET /img/favicon.ico HTTP/1.1" 404 2205
+Not Found: /favicon.ico
+[06/Aug/2020 07:42:04] "GET /favicon.ico HTTP/1.1" 404 2193
+[06/Aug/2020 07:42:50] "GET / HTTP/1.0" 200 5435
+Not Found: /nice ports,/Trinity.txt.bak
+[06/Aug/2020 07:42:51] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2252
+[06/Aug/2020 07:42:53] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[06/Aug/2020 07:42:53] "  " 400 -
+[06/Aug/2020 07:42:56] "OPTIONS / HTTP/1.0" 200 5435
+[06/Aug/2020 07:42:57] code 400, message Bad request version ('RTSP/1.0')
+[06/Aug/2020 07:42:57] "OPTIONS / RTSP/1.0" 400 -
+[06/Aug/2020 07:43:02] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[06/Aug/2020 07:43:02] "  (rþ          |                    " 400 -
+[06/Aug/2020 07:43:08] code 400, message Bad HTTP/0.9 request type ('\x00')
+[06/Aug/2020 07:43:08] "          versionbind   " 400 -
+[06/Aug/2020 07:43:08] code 400, message Bad request syntax ('HELP')
+[06/Aug/2020 07:43:08] "HELP" 400 -
+[06/Aug/2020 07:43:09] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[06/Aug/2020 07:43:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Aug/2020 07:43:14] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[06/Aug/2020 07:43:14] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[06/Aug/2020 07:43:14] code 400, message Bad request syntax ('\x01default')
+[06/Aug/2020 07:43:14] "default" 400 -
+[06/Aug/2020 07:43:15] code 400, message Bad request version ('SIP/2.0')
+[06/Aug/2020 07:43:15] "OPTIONS sip:nm SIP/2.0" 400 -
+[06/Aug/2020 07:43:20] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[06/Aug/2020 07:43:20] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[06/Aug/2020 07:43:20] "GET /?CAVIT HTTP/1.1" 200 5435
+Not Found: /nmaplowercheck1596700122
+[06/Aug/2020 07:48:42] "GET /nmaplowercheck1596700122 HTTP/1.1" 404 2232
+Not Found: /evox/about
+[06/Aug/2020 07:48:42] "GET /evox/about HTTP/1.1" 404 2190
+Not Found: /sdk
+[06/Aug/2020 07:48:52] "POST /sdk HTTP/1.1" 404 2170
+Not Found: /HNAP1
+[06/Aug/2020 07:48:52] "GET /HNAP1 HTTP/1.1" 404 2175
+[06/Aug/2020 07:49:14] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x11!Õ1\x0f¸\x8fs?\x0e$\x98\x16\x18ä\x15QÖÝ')
+[06/Aug/2020 07:49:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Aug/2020 07:49:26] "GET / HTTP/1.1" 200 5435
+[06/Aug/2020 08:13:00] "GET / HTTP/1.1" 200 5435
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Aug/2020 12:58:56] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[06/Aug/2020 13:17:16] "GET / HTTP/1.0" 200 5435
+[06/Aug/2020 13:17:16] "GET / HTTP/1.0" 200 5435
+[06/Aug/2020 13:26:15] "GET / HTTP/1.1" 200 5435
+[06/Aug/2020 13:27:03] "GET / HTTP/1.1" 200 5435
+[06/Aug/2020 13:27:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/css/style.css HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[06/Aug/2020 13:27:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/classie.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/js/app.js HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[06/Aug/2020 13:27:03] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[06/Aug/2020 13:27:03] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[06/Aug/2020 13:27:03] "GET /favicon.ico HTTP/1.1" 404 2193
+[06/Aug/2020 13:34:11] "GET / HTTP/1.1" 200 6056
+[06/Aug/2020 13:34:11] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[06/Aug/2020 13:35:07] "GET / HTTP/1.1" 200 5981
+[06/Aug/2020 13:35:07] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+Not Found: /course_list.html
+[06/Aug/2020 13:35:10] "GET /course_list.html HTTP/1.1" 404 2208
+Not Found: /favicon.ico
+[06/Aug/2020 13:35:10] "GET /favicon.ico HTTP/1.1" 404 2193
+[06/Aug/2020 13:36:49] "GET / HTTP/1.1" 200 5892
+[06/Aug/2020 13:36:50] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[06/Aug/2020 13:36:51] "GET / HTTP/1.1" 200 5892
+[06/Aug/2020 13:36:51] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[06/Aug/2020 13:37:42] "GET / HTTP/1.1" 200 5892
+[06/Aug/2020 13:37:42] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+Not Found: /problem/1/
+[06/Aug/2020 13:38:16] "GET /problem/1/ HTTP/1.1" 404 2190
+Not Found: /favicon.ico
+[06/Aug/2020 13:38:16] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /favicon.ico
+[06/Aug/2020 13:42:10] "GET /favicon.ico HTTP/1.1" 404 2193
+[06/Aug/2020 13:57:53] "GET / HTTP/1.1" 200 5893
+[06/Aug/2020 13:57:53] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[06/Aug/2020 14:37:54] "GET / HTTP/1.1" 200 5893
+[06/Aug/2020 14:37:57] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[06/Aug/2020 17:22:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[06/Aug/2020 17:22:57] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /ip.ws.126.net:443
+[06/Aug/2020 18:23:56] "CONNECT ip.ws.126.net:443 HTTP/1.1" 404 1666
+[06/Aug/2020 19:35:14] "GET / HTTP/1.1" 200 5893
+[06/Aug/2020 21:33:52] code 400, message Bad request syntax ('0xB16B00B511')
+[06/Aug/2020 21:33:52] "0xB16B00B511" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Aug/2020 22:36:44] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[06/Aug/2020 23:59:21] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03;Oy¿»\x835b¸ñ¡5d^¡\x93\x13\x9c¯³\x8ed\x1e2ç2+Z\x12lô§ %¥\x0cÁ\x0brFbÅÌJ¯V\x18ìÄ+=¥Þ¶h*´.d6\x01¨yÕW\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[06/Aug/2020 23:59:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 06:34:30] "GET / HTTP/1.1" 200 5893
+[07/Aug/2020 06:47:53] "GET / HTTP/1.1" 200 5893
+[07/Aug/2020 07:58:46] code 400, message Bad request syntax ("\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03¨\x87{0cSÛ#âÆfðC7oÐý'ñX¡æªBù\x8e\x89Z½\x87\x04g ÄS?}¸f\x1fp×ÿ@\x8eÑ\x182Í8ÌTº¾¿\tO\x94B")
+[07/Aug/2020 07:58:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 08:05:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[07/Aug/2020 08:05:40] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Aug/2020 08:18:07] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[07/Aug/2020 08:54:33] "GET / HTTP/1.1" 200 5893
+[07/Aug/2020 09:12:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[07/Aug/2020 09:12:24] "  /*à     Cookie: mstshash=Administr" 400 -
+[07/Aug/2020 09:23:24] "GET / HTTP/1.1" 200 5893
+[07/Aug/2020 09:31:58] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03YEh\x81IiÏ^ò\\õX\x10\x0f»ª\x11PÈÞ\x8dù\x9530`ß\x1c&\x15\x17/ \x05@\x7fÁ»\x07\x87hê½\x19È÷-Éç[9`¹ß\x17\x97¿u\x16\x93ú\x07ÙE:\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[07/Aug/2020 09:31:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 09:41:16] code 400, message Bad request syntax ("\x16\x03\x03\x00×\x01\x00\x00Ó\x03\x03_-!¼/H/Ö\x93ËÖ¨\x89¹©¶\x8a\x03×É\x9açÚß$ñ\x10t©\x89\x7fì\x00\x00J\x00ÿÀ,À0À$À(À.À2À&À*\x00\x9f\x00£\x00k\x00jÀ+À/À#À'À-À1À%À)\x00\x9e\x00¢\x00g\x00@À")
+[07/Aug/2020 09:41:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 09:51:09] "GET / HTTP/1.1" 200 5893
+[07/Aug/2020 10:42:51] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03z²\x9e~\t\x9b\x06\x0eè\x95\x9aæª\x96\x02½)P[M,\x81¡ló;\x9aäj~\x88£ !ð\x15b\x95z!-\x8cö\x9caÚjþ²®¥×\x97R\x00[\x1fkMç\x95\x14<T^\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[07/Aug/2020 10:42:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Aug/2020 11:25:11] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[07/Aug/2020 11:47:11] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03oãd\x0c@p"pwòz\'Eú0=¶@£\x8cÛ\x05\x0c|\x85.z\'äì8M ì¤ÑL\'\x1bs§k\x7fo\x13n\x8f\x06\x87\'\xad\x85nÂ\x96%xôË\x13¿\x1amn¯\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[07/Aug/2020 11:47:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 15:48:27] "GET / HTTP/1.0" 200 5893
+[07/Aug/2020 15:52:22] "GET / HTTP/1.1" 200 5893
+[07/Aug/2020 15:53:41] "GET / HTTP/1.1" 200 5893
+[07/Aug/2020 16:40:52] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Aug/2020 17:58:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[07/Aug/2020 18:54:33] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.8.0')
+[07/Aug/2020 18:54:33] "SSH-2.0-libssh2_1.8.0" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Aug/2020 19:17:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[07/Aug/2020 23:13:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[07/Aug/2020 23:13:50] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /ip.ws.126.net:443
+[08/Aug/2020 01:04:04] "CONNECT ip.ws.126.net:443 HTTP/1.1" 404 1666
+[08/Aug/2020 02:09:03] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Aug/2020 03:38:27] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[08/Aug/2020 03:59:50] "GET / HTTP/1.1" 200 5893
+[08/Aug/2020 03:59:51] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[08/Aug/2020 09:39:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[08/Aug/2020 09:39:05] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Aug/2020 11:02:53] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[08/Aug/2020 12:06:35] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Aug/2020 13:17:26] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[08/Aug/2020 13:34:31] "GET / HTTP/1.1" 200 5893
+[08/Aug/2020 15:45:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[08/Aug/2020 15:45:04] "  /*à     Cookie: mstshash=Administr" 400 -
+[08/Aug/2020 22:34:23] "HEAD / HTTP/1.0" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Aug/2020 22:56:33] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[09/Aug/2020 01:02:36] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[09/Aug/2020 01:02:36] " " 400 -
+[09/Aug/2020 01:02:40] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[09/Aug/2020 01:02:40] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[09/Aug/2020 01:02:44] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7fÿÆ\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[09/Aug/2020 01:02:44] " :     9,   ÿÆ      :   AA                        " 400 -
+[09/Aug/2020 01:02:49] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[09/Aug/2020 01:02:49] "  à          " 400 -
+[09/Aug/2020 01:02:53] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[09/Aug/2020 01:02:53] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[09/Aug/2020 01:02:53] code 400, message Bad request syntax ('info')
+[09/Aug/2020 01:02:53] "info" 400 -
+Not Found: /_cat
+[09/Aug/2020 01:02:53] "GET /_cat HTTP/1.1" 404 2181
+[09/Aug/2020 01:02:58] code 400, message Bad HTTP/0.9 request type ('\x80')
+[09/Aug/2020 01:02:58] "                      " 400 -
+[09/Aug/2020 01:03:02] code 400, message Bad request syntax ('\x00\x00\x00§A\x00\x00\x00\x00\x00\x00Ô\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+[09/Aug/2020 01:03:02] "   §A      Ô      admin.$cmd     ÿÿÿÿ   ismaster     " 400 -
+[09/Aug/2020 01:03:07] code 400, message Bad request syntax ('stat')
+[09/Aug/2020 01:03:07] "stat" 400 -
+[09/Aug/2020 01:03:07] "GET / HTTP/1.1" 200 5893
+[09/Aug/2020 01:03:07] "GET / HTTP/1.1" 200 5893
+Not Found: //phpmyadmin
+[09/Aug/2020 01:03:07] "GET //phpmyadmin HTTP/1.1" 404 2193
+Not Found: //robots.txt
+[09/Aug/2020 01:03:07] "GET //robots.txt HTTP/1.1" 404 2193
+Not Found: //data/admin/ver.txt
+[09/Aug/2020 01:03:07] "GET //data/admin/ver.txt HTTP/1.1" 404 2217
+Not Found: //data/admin/verifies.txt
+[09/Aug/2020 01:03:07] "GET //data/admin/verifies.txt HTTP/1.1" 404 2232
+Not Found: //license.txt
+[09/Aug/2020 01:03:07] "GET //license.txt HTTP/1.1" 404 2196
+Not Found: //readme.txt
+[09/Aug/2020 01:03:07] "GET //readme.txt HTTP/1.1" 404 2193
+Not Found: //help.txt
+[09/Aug/2020 01:03:07] "GET //help.txt HTTP/1.1" 404 2187
+Not Found: //readme.html
+[09/Aug/2020 01:03:07] "GET //readme.html HTTP/1.1" 404 2196
+Not Found: //wp-admin/css/colors-classic.css
+[09/Aug/2020 01:03:07] "GET //wp-admin/css/colors-classic.css HTTP/1.1" 404 2256
+Not Found: //wp-admin/js/media-upload.dev.js
+[09/Aug/2020 01:03:07] "GET //wp-admin/js/media-upload.dev.js HTTP/1.1" 404 2256
+Not Found: //wp-content/plugins/akismet/akismet.js
+[09/Aug/2020 01:03:07] "GET //wp-content/plugins/akismet/akismet.js HTTP/1.1" 404 2274
+Not Found: //wp-content/themes/classic/rtl.css
+[09/Aug/2020 01:03:07] "GET //wp-content/themes/classic/rtl.css HTTP/1.1" 404 2262
+Not Found: //wp-includes/css/buttons.css
+[09/Aug/2020 01:03:07] "GET //wp-includes/css/buttons.css HTTP/1.1" 404 2244
+Not Found: //SCRIPT/common.js
+[09/Aug/2020 01:03:07] "GET //SCRIPT/common.js HTTP/1.1" 404 2211
+Not Found: //Ads/left.js
+[09/Aug/2020 01:03:08] "GET //Ads/left.js HTTP/1.1" 404 2196
+Not Found: //Css/Style.css
+[09/Aug/2020 01:03:08] "GET //Css/Style.css HTTP/1.1" 404 2202
+Not Found: //Images/ad.js
+[09/Aug/2020 01:03:08] "GET //Images/ad.js HTTP/1.1" 404 2199
+Not Found: //Script/Html.js
+[09/Aug/2020 01:03:08] "GET //Script/Html.js HTTP/1.1" 404 2205
+Not Found: //SiteFiles/Inner/Register/script.js
+[09/Aug/2020 01:03:08] "GET //SiteFiles/Inner/Register/script.js HTTP/1.1" 404 2265
+Not Found: //License/index.php
+[09/Aug/2020 01:03:08] "GET //License/index.php HTTP/1.1" 404 2214
+Not Found: //wcm/app/login.jsp
+[09/Aug/2020 01:03:08] "GET //wcm/app/login.jsp HTTP/1.1" 404 2214
+Not Found: //help/
+[09/Aug/2020 01:03:08] "GET //help/ HTTP/1.1" 404 2178
+Not Found: //help/io_login.html
+[09/Aug/2020 01:03:08] "GET //help/io_login.html HTTP/1.1" 404 2217
+[09/Aug/2020 01:03:08] "GET / HTTP/1.1" 200 5893
+Not Found: /jboss.css
+[09/Aug/2020 01:03:08] "GET /jboss.css HTTP/1.1" 404 2187
+Not Found: /is_test
+[09/Aug/2020 01:03:08] "GET /is_test HTTP/1.1" 404 2181
+Not Found: /axis2
+[09/Aug/2020 01:03:08] "GET /axis2 HTTP/1.1" 404 2175
+Not Found: /console/css/login.css
+[09/Aug/2020 01:03:08] "GET /console/css/login.css HTTP/1.1" 404 2223
+Not Found: /resource/js/cj.js
+[09/Aug/2020 01:03:08] "GET /resource/js/cj.js HTTP/1.1" 404 2211
+[09/Aug/2020 01:03:08] "GET / HTTP/1.1" 200 5893
+[09/Aug/2020 01:30:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 01:30:45] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /boaform/admin/formLogin
+[09/Aug/2020 02:04:28] "POST /boaform/admin/formLogin HTTP/1.1" 404 2230
+Not Found: /boaform/admin/formLogin
+[09/Aug/2020 02:29:36] "POST /boaform/admin/formLogin HTTP/1.1" 404 2230
+[09/Aug/2020 03:45:06] "GET / HTTP/1.1" 200 5893
+[09/Aug/2020 04:50:29] "GET / HTTP/1.1" 200 5893
+Not Found: /explicit_not_exist_path
+[09/Aug/2020 04:50:29] "GET /explicit_not_exist_path HTTP/1.1" 404 2229
+Not Found: /index.html
+[09/Aug/2020 04:50:29] "GET /index.html HTTP/1.1" 404 2190
+Not Found: /index.php
+[09/Aug/2020 04:50:29] "GET /index.php HTTP/1.1" 404 2187
+Not Found: /index.jsp
+[09/Aug/2020 04:50:29] "GET /index.jsp HTTP/1.1" 404 2187
+[09/Aug/2020 04:50:29] "GET /admin/ HTTP/1.1" 302 0
+[09/Aug/2020 04:50:29] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /favicon.ico
+[09/Aug/2020 04:50:30] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /robots.txt
+[09/Aug/2020 04:50:30] "GET /robots.txt HTTP/1.1" 404 2190
+[09/Aug/2020 04:50:30] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[09/Aug/2020 04:50:30] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[09/Aug/2020 04:50:30] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[09/Aug/2020 04:50:30] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1692
+[09/Aug/2020 04:50:30] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1710
+[09/Aug/2020 04:50:30] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[09/Aug/2020 04:50:31] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Aug/2020 04:50:31] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /404.html
+[09/Aug/2020 04:50:31] "GET /404.html HTTP/1.1" 404 2184
+Not Found: /500.html
+[09/Aug/2020 04:50:31] "GET /500.html HTTP/1.1" 404 2184
+Not Found: /stylesheets/application.css
+[09/Aug/2020 04:50:31] "GET /stylesheets/application.css HTTP/1.1" 404 2241
+Not Found: /r/cms/www/red/img/prompt.jpg
+[09/Aug/2020 04:50:31] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 2244
+Not Found: /r/cms/www/red/style/swiper.min.js
+[09/Aug/2020 04:50:31] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 2259
+Not Found: /wcm/
+[09/Aug/2020 04:50:31] "GET /wcm/ HTTP/1.1" 404 2172
+Not Found: /phpMyAdmin/
+[09/Aug/2020 04:50:31] "GET /phpMyAdmin/ HTTP/1.1" 404 2193
+Not Found: /phpmyadmin/
+[09/Aug/2020 04:50:31] "GET /phpmyadmin/ HTTP/1.1" 404 2193
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Aug/2020 08:34:41] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[09/Aug/2020 09:31:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 09:31:10] "  /*à     Cookie: mstshash=Administr" 400 -
+----------------------------------------
+Exception happened during processing of request from ('45.141.84.62', 21180)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Aug/2020 09:34:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 09:34:44] "  /*à     Cookie: mstshash=Administr" 400 -
+[09/Aug/2020 09:34:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 09:34:48] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Aug/2020 10:40:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[09/Aug/2020 15:29:08] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[09/Aug/2020 15:29:08] "  à          " 400 -
+[09/Aug/2020 17:44:11] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Aug/2020 18:12:58] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[09/Aug/2020 18:44:01] "GET / HTTP/1.1" 200 5893
+[09/Aug/2020 18:44:03] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+----------------------------------------
+Exception happened during processing of request from ('104.152.52.22', 43586)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('192.35.168.202', 55320)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Aug/2020 20:21:40] "GET / HTTP/1.1" 200 5893
+[09/Aug/2020 20:21:40] "GET / HTTP/1.1" 200 5893
+[09/Aug/2020 20:22:48] "GET / HTTP/1.1" 200 5893
+[09/Aug/2020 21:13:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 21:13:26] "  /*à     Cookie: mstshash=Administr" 400 -
+[10/Aug/2020 01:46:56] "GET / HTTP/1.0" 200 5893
+[10/Aug/2020 03:49:35] "GET / HTTP/1.1" 200 5893
+Not Found: /config/getuser
+[10/Aug/2020 09:10:28] "GET /config/getuser?index=0 HTTP/1.1" 404 2210
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Aug/2020 10:18:07] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[10/Aug/2020 11:11:06] "GET / HTTP/1.1" 200 5893
+[10/Aug/2020 12:55:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Aug/2020 12:55:16] "  /*à     Cookie: mstshash=Administr" 400 -
+[10/Aug/2020 13:10:34] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[10/Aug/2020 13:10:34] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[10/Aug/2020 13:10:34] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Aug/2020 13:43:13] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[10/Aug/2020 14:39:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Aug/2020 14:39:25] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /cityjson
+[10/Aug/2020 15:15:35] "GET /cityjson?ie=utf-8 HTTP/1.1" 404 2185
+[10/Aug/2020 15:15:45] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/Aug/2020 15:15:45] " " 400 -
+[10/Aug/2020 15:30:34] "GET / HTTP/1.0" 200 5893
+Not Found: /boaform/admin/formLogin
+[10/Aug/2020 15:38:37] "POST /boaform/admin/formLogin HTTP/1.1" 404 2230
+[10/Aug/2020 16:37:23] "GET / HTTP/1.0" 200 5893
+[10/Aug/2020 16:59:43] code 400, message Bad request syntax ('\x04\x01\x00\x19h/\x08!\x00')
+[10/Aug/2020 16:59:43] " h/! " 400 -
+[2020-08-10 16:59:43,437] - Broken pipe from ('80.82.65.74', 44038)
+
+[10/Aug/2020 17:00:44] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/Aug/2020 17:00:44] " " 400 -
+[2020-08-10 17:00:44,696] - Broken pipe from ('80.82.65.74', 55836)
+
+[10/Aug/2020 17:01:45] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/Aug/2020 17:01:45] " " 400 -
+[10/Aug/2020 19:45:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Aug/2020 19:45:50] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Aug/2020 23:22:38] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[11/Aug/2020 02:20:07] "GET / HTTP/1.1" 200 5893
+[11/Aug/2020 05:34:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Aug/2020 05:34:01] "  /*à     Cookie: mstshash=Administr" 400 -
+[11/Aug/2020 06:25:12] "GET / HTTP/1.1" 200 5893
+[11/Aug/2020 06:53:44] "GET / HTTP/1.0" 200 5893
+[11/Aug/2020 08:16:38] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Aug/2020 08:16:38] "  /*à     Cookie: mstshash=Administr" 400 -
+[11/Aug/2020 08:26:49] code 400, message Bad request syntax ('&&&&y\x860\x14<ÒiÖHË\x89\x02ÀË9³¥\x07')
+[11/Aug/2020 08:26:49] "&&&&y0<ÒiÖHËÀË9³¥" 400 -
+[11/Aug/2020 08:32:02] code 400, message Bad request syntax ('[\x00\x00\x00H\x00\x00\x00\x01\x10\x01\x00\x01\x04j\x00\x00\x01\x00\x00\x00\x00')
+[11/Aug/2020 08:32:02] "[   H    j      " 400 -
+[11/Aug/2020 08:38:12] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03ð½\x1aúM\x17QÜ\x8bóV$\x8eí{ê\x1dó£µ\x1fÐè\x13Ø\x9as\x9e¬ª\x18«\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\tÀ\x14À')
+[11/Aug/2020 08:38:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[11/Aug/2020 18:45:02] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[11/Aug/2020 18:58:20] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03,\x1e>\x19\x08SZ\xadRÕ¢þ`{\x88\x13k§>ç\x04úãÝIú:\x85\x8c\x1a\x14Å Å\x00\x96{Ï\'T0\x16\x0c}\x0c\x86#ò\x8c\r\x99"\x0fg\x1eêj\x1b\x80IÆ;\x0e\x94I\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[11/Aug/2020 18:58:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Aug/2020 22:03:00] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[11/Aug/2020 22:03:00] "Z¥     " 400 -
+[12/Aug/2020 01:21:28] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[12/Aug/2020 01:21:28] " " 400 -
+[12/Aug/2020 01:21:33] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[12/Aug/2020 01:21:33] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[12/Aug/2020 01:21:37] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7fÿÆ\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[12/Aug/2020 01:21:37] " :     9,   ÿÆ      :   AA                        " 400 -
+[12/Aug/2020 01:21:41] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[12/Aug/2020 01:21:41] "  à          " 400 -
+[12/Aug/2020 01:21:46] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[12/Aug/2020 01:21:46] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[12/Aug/2020 01:21:46] code 400, message Bad request syntax ('info')
+[12/Aug/2020 01:21:46] "info" 400 -
+Not Found: /_cat
+[12/Aug/2020 01:21:46] "GET /_cat HTTP/1.1" 404 2181
+[12/Aug/2020 01:21:51] code 400, message Bad HTTP/0.9 request type ('\x80')
+[12/Aug/2020 01:21:51] "                      " 400 -
+[12/Aug/2020 01:21:55] code 400, message Bad request syntax ('\x00\x00\x00§A\x00\x00\x00\x00\x00\x00Ô\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+[12/Aug/2020 01:21:55] "   §A      Ô      admin.$cmd     ÿÿÿÿ   ismaster     " 400 -
+[12/Aug/2020 01:21:59] code 400, message Bad request syntax ('stat')
+[12/Aug/2020 01:21:59] "stat" 400 -
+[12/Aug/2020 01:21:59] "GET / HTTP/1.1" 200 5893
+[12/Aug/2020 03:30:58] "GET / HTTP/1.1" 200 5893
+[12/Aug/2020 04:03:37] code 400, message Bad request syntax ('\x16\x03\x01\x00«\x01\x00\x00§\x03\x032Ë=d¸²s\x0c\x1a¿:"v\x0bNgkm<\x81ñß\x1fY')
+[12/Aug/2020 04:03:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /env
+[12/Aug/2020 04:03:37] "GET /env HTTP/1.1" 404 2164
+Not Found: /boaform/admin/formLogin
+[12/Aug/2020 04:50:16] "POST /boaform/admin/formLogin HTTP/1.1" 404 2230
+[12/Aug/2020 05:12:33] code 400, message Bad request version ('\x07\x01\x00\x00!5/////./..//////./..//////./../flash/rw/store/user.dat\x02\x00ÿ\x88\x02\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00ÿ\x88\x02\x00\x02\x00\x00\x00\x02\x00\x00\x00')
+[12/Aug/2020 05:12:33] "h fM2 ÿ ÿ	 ÿ	  !5/////./..//////./..//////./../flash/rw/store/user.dat ÿ         ÿ       " 400 -
+[12/Aug/2020 05:21:08] "GET / HTTP/1.1" 200 5893
+[12/Aug/2020 05:30:09] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[12/Aug/2020 05:30:09] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[12/Aug/2020 05:30:09] "GET / HTTP/1.1" 200 5893
+Not Found: /config/getuser
+[12/Aug/2020 06:56:05] "GET /config/getuser?index=0 HTTP/1.1" 404 2210
+Not Found: /boaform/admin/formLogin
+[12/Aug/2020 07:35:40] "POST /boaform/admin/formLogin HTTP/1.1" 404 2230
+Not Found: /http:/www.boxun.com/
+[12/Aug/2020 07:50:30] "GET http://www.boxun.com/ HTTP/1.1" 404 1669
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[12/Aug/2020 09:34:02] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[12/Aug/2020 10:45:16] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00«\x01\x00\x00§\x03\x03âÅ\x03Ò,\x843!\x17n\x99ÞEºÒù\x7féH½+Í')
+[12/Aug/2020 10:45:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /env
+[12/Aug/2020 10:45:16] "GET /env HTTP/1.1" 404 2164
+[12/Aug/2020 12:49:30] "GET / HTTP/1.0" 200 5893
+[12/Aug/2020 14:12:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[12/Aug/2020 14:12:41] "  /*à     Cookie: mstshash=Administr" 400 -
+[12/Aug/2020 17:34:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[12/Aug/2020 17:34:22] "  /*à     Cookie: mstshash=Administr" 400 -
+[12/Aug/2020 18:29:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[12/Aug/2020 18:29:53] "  /*à     Cookie: mstshash=Administr" 400 -
+[12/Aug/2020 23:25:05] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03\x84\x01\x9a\x02®?À\x8c\x8a\x93Ií\x82gå\t\x92\x03ì^k\x92¥,Iìp\x9d\x89à.\x03 \x96\x0fM{n±Ø´` s´a:\x83z\x95t4o,É>d\x87þÒ¬csÔ²\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[12/Aug/2020 23:25:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[12/Aug/2020 23:43:34] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[13/Aug/2020 01:02:11] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[13/Aug/2020 01:02:11] " " 400 -
+[13/Aug/2020 01:02:15] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[13/Aug/2020 01:02:15] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[13/Aug/2020 01:02:19] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7fÿÆ\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[13/Aug/2020 01:02:19] " :     9,   ÿÆ      :   AA                        " 400 -
+[13/Aug/2020 01:02:24] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[13/Aug/2020 01:02:24] "  à          " 400 -
+[13/Aug/2020 01:02:28] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[13/Aug/2020 01:02:28] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[13/Aug/2020 01:02:28] code 400, message Bad request syntax ('info')
+[13/Aug/2020 01:02:28] "info" 400 -
+Not Found: /_cat
+[13/Aug/2020 01:02:28] "GET /_cat HTTP/1.1" 404 2181
+[13/Aug/2020 01:02:33] code 400, message Bad HTTP/0.9 request type ('\x80')
+[13/Aug/2020 01:02:33] "                      " 400 -
+[13/Aug/2020 01:02:37] code 400, message Bad request syntax ('\x00\x00\x00§A\x00\x00\x00\x00\x00\x00Ô\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+[13/Aug/2020 01:02:37] "   §A      Ô      admin.$cmd     ÿÿÿÿ   ismaster     " 400 -
+[13/Aug/2020 01:02:42] code 400, message Bad request syntax ('stat')
+[13/Aug/2020 01:02:42] "stat" 400 -
+[13/Aug/2020 01:02:42] "GET / HTTP/1.1" 200 5893
+[13/Aug/2020 02:15:42] "GET / HTTP/1.1" 200 5893
+[13/Aug/2020 03:45:09] "GET / HTTP/1.1" 200 5893
+[13/Aug/2020 03:45:10] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[13/Aug/2020 04:04:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Aug/2020 04:04:47] "  /*à     Cookie: mstshash=Administr" 400 -
+[13/Aug/2020 07:39:27] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03«·Ý\x8f&P¥~\twu\x99\x9eM \x8a¼²¢\x83+Ú\x8ee\x97\'ò\x1c\x80\x9b")\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\tÀ\x14À')
+[13/Aug/2020 07:39:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/112.124.42.80:63435/
+[13/Aug/2020 09:29:13] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 1694
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Aug/2020 09:31:36] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[13/Aug/2020 09:47:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Aug/2020 09:47:48] "  /*à     Cookie: mstshash=Administr" 400 -
+[13/Aug/2020 12:10:38] "GET / HTTP/1.1" 200 5893
+[13/Aug/2020 16:49:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Aug/2020 16:49:29] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Aug/2020 19:10:11] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[13/Aug/2020 21:07:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Aug/2020 21:07:13] "  /*à     Cookie: mstshash=Administr" 400 -
+----------------------------------------
+Exception happened during processing of request from ('185.202.0.5', 21560)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[14/Aug/2020 03:01:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Aug/2020 03:01:02] "  /*à     Cookie: mstshash=Administr" 400 -
+[14/Aug/2020 03:01:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Aug/2020 03:01:05] "  /*à     Cookie: mstshash=Administr" 400 -
+[14/Aug/2020 04:50:12] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[14/Aug/2020 04:50:12] "Z¥     " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Aug/2020 04:50:18] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[14/Aug/2020 08:03:10] code 400, message Bad request syntax ('&&&&y\x860\x14<ÒiÖHË\x89\x02ÀË9³¥\x07')
+[14/Aug/2020 08:03:10] "&&&&y0<ÒiÖHËÀË9³¥" 400 -
+[14/Aug/2020 08:06:53] code 400, message Bad request syntax ('[\x00\x00\x00H\x00\x00\x00\x01\x10\x01\x00\x01\x04j\x00\x00\x01\x00\x00\x00\x00')
+[14/Aug/2020 08:06:53] "[   H    j      " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Aug/2020 08:47:01] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[14/Aug/2020 11:40:33] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Aug/2020 11:40:33] "  /*à     Cookie: mstshash=Administr" 400 -
+[14/Aug/2020 14:19:31] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Aug/2020 14:29:15] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /login.aspx
+[14/Aug/2020 16:07:43] "GET /login.aspx HTTP/1.1" 404 2190
+[14/Aug/2020 23:31:02] "GET / HTTP/1.0" 200 5893
+Not Found: /nice ports,/Trinity.txt.bak
+[14/Aug/2020 23:31:08] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2252
+[14/Aug/2020 23:31:10] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[14/Aug/2020 23:31:10] "  " 400 -
+[14/Aug/2020 23:31:10] "OPTIONS / HTTP/1.0" 200 5893
+[14/Aug/2020 23:31:11] code 400, message Bad request version ('RTSP/1.0')
+[14/Aug/2020 23:31:11] "OPTIONS / RTSP/1.0" 400 -
+[14/Aug/2020 23:31:16] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[14/Aug/2020 23:31:16] "  (rþ          |                    " 400 -
+[14/Aug/2020 23:31:21] code 400, message Bad HTTP/0.9 request type ('\x00')
+[14/Aug/2020 23:31:21] "          versionbind   " 400 -
+[14/Aug/2020 23:31:21] code 400, message Bad request syntax ('HELP')
+[14/Aug/2020 23:31:21] "HELP" 400 -
+[14/Aug/2020 23:31:22] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[14/Aug/2020 23:31:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Aug/2020 23:31:27] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[14/Aug/2020 23:31:27] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[14/Aug/2020 23:31:27] code 400, message Bad request syntax ('\x01default')
+[14/Aug/2020 23:31:27] "default" 400 -
+[14/Aug/2020 23:31:27] code 400, message Bad request version ('SIP/2.0')
+[14/Aug/2020 23:31:27] "OPTIONS sip:nm SIP/2.0" 400 -
+[14/Aug/2020 23:31:33] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[14/Aug/2020 23:31:33] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[14/Aug/2020 23:31:33] "GET /?CAVIT HTTP/1.1" 200 5893
+Not Found: /sdk
+[14/Aug/2020 23:37:01] "POST /sdk HTTP/1.1" 404 2170
+[14/Aug/2020 23:37:11] code 400, message Bad request version ("9©\x8e!±8\x96EmÉ\x11K:Á\x02\x87¹\x88óù\x8dpS\x93t!dAJUßù\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[14/Aug/2020 23:37:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /nmaplowercheck1597448220
+[14/Aug/2020 23:37:22] "GET /nmaplowercheck1597448220 HTTP/1.1" 404 2232
+Not Found: /HNAP1
+[14/Aug/2020 23:37:22] "GET /HNAP1 HTTP/1.1" 404 2175
+Not Found: /evox/about
+[14/Aug/2020 23:37:24] "GET /evox/about HTTP/1.1" 404 2190
+[14/Aug/2020 23:37:41] "GET / HTTP/1.1" 200 5893
+[14/Aug/2020 23:41:44] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+[14/Aug/2020 23:41:44] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+[14/Aug/2020 23:49:13] code 400, message Bad HTTP/0.9 request type ('\x02¤Uÿ\x00\x00\x00')
+[14/Aug/2020 23:49:13] "¤Uÿ   " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Aug/2020 00:12:18] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Aug/2020 00:32:01] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[15/Aug/2020 00:46:46] "GET /static/js/winScale.js HTTP/1.1" 404 1671
+Not Found: /Public/Wchat/js/cvphp.js
+[15/Aug/2020 00:46:46] "GET /Public/Wchat/js/cvphp.js HTTP/1.1" 404 2232
+Not Found: /index.php
+[15/Aug/2020 00:46:46] "GET /index.php?g=Pay&m=Res&a=ispay HTTP/1.1" 404 2215
+Not Found: /cloud-app/include/css/uncall.css
+[15/Aug/2020 00:46:46] "GET /cloud-app/include/css/uncall.css HTTP/1.1" 404 2256
+Not Found: /resources/main/common.js
+[15/Aug/2020 00:46:46] "GET /resources/main/common.js HTTP/1.1" 404 2232
+Not Found: /pczs/js/trendChart.js
+[15/Aug/2020 00:46:46] "GET /pczs/js/trendChart.js HTTP/1.1" 404 2223
+Not Found: /index2.php
+[15/Aug/2020 00:46:46] "GET /index2.php HTTP/1.1" 404 2190
+Not Found: /phpcms/modules/member/touzi.php
+[15/Aug/2020 00:46:46] "GET /phpcms/modules/member/touzi.php HTTP/1.1" 404 2253
+[15/Aug/2020 00:46:46] "GET / HTTP/1.1" 200 5893
+Not Found: /11.txt
+[15/Aug/2020 00:46:46] "GET /11.txt HTTP/1.1" 404 2178
+Not Found: /gai/ucms/login.php
+[15/Aug/2020 00:46:46] "GET /gai/ucms/login.php HTTP/1.1" 404 2214
+Not Found: /source/pack/upload/install/ios.php
+[15/Aug/2020 00:46:46] "GET /source/pack/upload/install/ios.php HTTP/1.1" 404 2262
+Not Found: /Public/Home/statics/web/js/style.js
+[15/Aug/2020 00:46:46] "GET /Public/Home/statics/web/js/style.js HTTP/1.1" 404 2265
+Not Found: /Template/Home/Run/record.html
+[15/Aug/2020 00:46:46] "GET /Template/Home/Run/record.html HTTP/1.1" 404 2247
+Not Found: /Public/home/appjs/Index.js
+[15/Aug/2020 00:46:46] "GET /Public/home/appjs/Index.js HTTP/1.1" 404 2238
+Not Found: /jsonpublic/selectAddtion.asp
+[15/Aug/2020 00:46:46] "GET /jsonpublic/selectAddtion.asp HTTP/1.1" 404 2244
+[15/Aug/2020 00:46:46] "GET /static/admin/js/cvphp.js HTTP/1.1" 404 1680
+Not Found: /Loan/SubmitLogin
+[15/Aug/2020 00:46:46] "GET /Loan/SubmitLogin HTTP/1.1" 404 2208
+Not Found: /Public/Manage/js/cvphp.js
+[15/Aug/2020 00:46:46] "GET /Public/Manage/js/cvphp.js HTTP/1.1" 404 2235
+Not Found: /lateron.asp
+[15/Aug/2020 00:46:46] "GET /lateron.asp HTTP/1.1" 404 2193
+Not Found: /db/admin_yly.sql
+[15/Aug/2020 00:46:46] "GET /db/admin_yly.sql HTTP/1.1" 404 2208
+Not Found: /Public/js/chatmsg.js
+[15/Aug/2020 00:46:46] "GET /Public/js/chatmsg.js HTTP/1.1" 404 2220
+Not Found: /Resource/webResource/js/newcheck.js
+[15/Aug/2020 00:46:46] "GET /Resource/webResource/js/newcheck.js HTTP/1.1" 404 2265
+Not Found: /js/sms.js
+[15/Aug/2020 00:46:46] "GET /js/sms.js HTTP/1.1" 404 2187
+Not Found: /app/common.js
+[15/Aug/2020 00:46:46] "GET /app/common.js?version=2.4.43&build=1563436823 HTTP/1.1" 404 2235
+Not Found: /Application/Basic/Static/css/customerselect.css
+[15/Aug/2020 00:46:46] "GET /Application/Basic/Static/css/customerselect.css HTTP/1.1" 404 2301
+Not Found: /views/bank/bank.html
+Not Found: /index/index/register1/type/1.html
+[15/Aug/2020 00:46:46] "GET /index/index/register1/type/1.html HTTP/1.1" 404 2259
+Not Found: /js/room.js
+[15/Aug/2020 00:46:46] "GET /js/room.js HTTP/1.1" 404 2190
+[15/Aug/2020 00:46:46] "GET /views/bank/bank.html HTTP/1.1" 404 2220
+Not Found: /Six/Js/class_12.js
+[15/Aug/2020 00:46:46] "GET /Six/Js/class_12.js HTTP/1.1" 404 2214
+Not Found: /api/v1/member/home
+[15/Aug/2020 00:46:46] "GET /api/v1/member/home HTTP/1.1" 404 2214
+Not Found: /js/guest.js
+[15/Aug/2020 00:46:46] "GET /js/guest.js HTTP/1.1" 404 2193
+Not Found: /views/ucenter/ucenter.js
+[15/Aug/2020 00:46:46] "GET /views/ucenter/ucenter.js HTTP/1.1" 404 2232
+Not Found: /Public/app/js/cvphp.js
+[15/Aug/2020 00:46:46] "GET /Public/app/js/cvphp.js HTTP/1.1" 404 2226
+[15/Aug/2020 00:46:46] "GET /static/index.css HTTP/1.1" 404 1656
+Not Found: /mindex/statics/js/qiandao.js
+[15/Aug/2020 00:46:46] "GET /mindex/statics/js/qiandao.js HTTP/1.1" 404 2244
+Not Found: /Pay/index.php
+[15/Aug/2020 00:46:46] "GET /Pay/index.php HTTP/1.1" 404 2199
+Not Found: /index3.php
+[15/Aug/2020 00:46:46] "GET /index3.php?m=Order&a=hetong&id=999999 HTTP/1.1" 404 2225
+[15/Aug/2020 00:46:46] "GET /static/index/js/lk/order.js HTTP/1.1" 404 1689
+Not Found: /Public/mobile/js/config.js
+[15/Aug/2020 00:46:46] "GET /Public/mobile/js/config.js HTTP/1.1" 404 2238
+Not Found: /robots.txt
+[15/Aug/2020 02:00:37] "HEAD /robots.txt HTTP/1.0" 404 2200
+[15/Aug/2020 02:27:14] "GET / HTTP/1.1" 200 5893
+[15/Aug/2020 03:47:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Aug/2020 03:47:36] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Aug/2020 05:03:08] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Aug/2020 08:24:15] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[15/Aug/2020 08:35:30] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[15/Aug/2020 08:35:30] "    c                           " 400 -
+[15/Aug/2020 09:06:41] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Aug/2020 09:52:39] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[15/Aug/2020 12:35:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Aug/2020 12:35:13] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Aug/2020 12:46:23] "GET / HTTP/1.1" 200 5893
+[15/Aug/2020 13:05:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Aug/2020 13:05:09] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Aug/2020 13:11:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Aug/2020 13:11:47] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Aug/2020 13:30:00] "GET / HTTP/1.0" 200 5893
+[15/Aug/2020 13:33:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Aug/2020 13:33:10] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Aug/2020 13:49:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Aug/2020 13:49:10] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /login.aspx
+[15/Aug/2020 16:07:12] "GET /login.aspx HTTP/1.1" 404 2190
+Not Found: /login.aspx
+[15/Aug/2020 16:09:23] "GET /login.aspx HTTP/1.1" 404 2190
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Aug/2020 19:31:52] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[15/Aug/2020 20:48:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00z\x01\x00\x00v\x03\x03_8J,ìÄ;\x12}')
+[15/Aug/2020 20:48:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.qq.com/404/search_children.js
+[15/Aug/2020 20:48:44] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+[15/Aug/2020 20:48:54] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/Aug/2020 20:48:54] " " 400 -
+[15/Aug/2020 20:48:54] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[15/Aug/2020 20:48:54] " PpTi4 " 400 -
+[15/Aug/2020 20:48:54] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x03ÿÿ\x00\x01local\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00cananian\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[15/Aug/2020 20:48:54] "  +<M            ÿÿ local                                                           cananian                                                        " 400 -
+[16/Aug/2020 03:29:17] "GET / HTTP/1.0" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[16/Aug/2020 05:15:07] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[16/Aug/2020 13:25:50] "GET / HTTP/1.1" 200 5893
+[16/Aug/2020 14:43:58] "GET / HTTP/1.1" 200 5893
+[16/Aug/2020 14:43:59] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[16/Aug/2020 15:47:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Aug/2020 15:47:47] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Aug/2020 17:19:23] "GET / HTTP/1.1" 200 5893
+[16/Aug/2020 17:34:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Aug/2020 17:34:11] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Aug/2020 20:24:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Aug/2020 20:24:24] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /ip.ws.126.net:443
+[16/Aug/2020 22:44:02] "CONNECT ip.ws.126.net:443 HTTP/1.1" 404 1666
+[17/Aug/2020 01:02:22] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[17/Aug/2020 01:02:22] " " 400 -
+[17/Aug/2020 01:02:26] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[17/Aug/2020 01:02:26] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[17/Aug/2020 01:02:30] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7fÿÆ\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[17/Aug/2020 01:02:30] " :     9,   ÿÆ      :   AA                        " 400 -
+[17/Aug/2020 01:02:35] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[17/Aug/2020 01:02:35] "  à          " 400 -
+[17/Aug/2020 01:02:39] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[17/Aug/2020 01:02:39] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[17/Aug/2020 01:02:39] code 400, message Bad request syntax ('info')
+[17/Aug/2020 01:02:39] "info" 400 -
+Not Found: /_cat
+[17/Aug/2020 01:02:39] "GET /_cat HTTP/1.1" 404 2181
+[17/Aug/2020 01:02:44] code 400, message Bad HTTP/0.9 request type ('\x80')
+[17/Aug/2020 01:02:44] "                      " 400 -
+[17/Aug/2020 01:02:48] code 400, message Bad request syntax ('\x00\x00\x00§A\x00\x00\x00\x00\x00\x00Ô\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+[17/Aug/2020 01:02:48] "   §A      Ô      admin.$cmd     ÿÿÿÿ   ismaster     " 400 -
+[17/Aug/2020 01:02:53] code 400, message Bad request syntax ('stat')
+[17/Aug/2020 01:02:53] "stat" 400 -
+[17/Aug/2020 01:02:53] "GET / HTTP/1.1" 200 5893
+[17/Aug/2020 04:52:24] "GET / HTTP/1.1" 200 5893
+Not Found: /explicit_not_exist_path
+[17/Aug/2020 04:52:24] "GET /explicit_not_exist_path HTTP/1.1" 404 2229
+Not Found: /index.html
+[17/Aug/2020 04:52:24] "GET /index.html HTTP/1.1" 404 2190
+Not Found: /index.php
+[17/Aug/2020 04:52:24] "GET /index.php HTTP/1.1" 404 2187
+Not Found: /index.jsp
+[17/Aug/2020 04:52:24] "GET /index.jsp HTTP/1.1" 404 2187
+[17/Aug/2020 04:52:24] "GET /admin/ HTTP/1.1" 302 0
+[17/Aug/2020 04:52:25] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /favicon.ico
+[17/Aug/2020 04:52:25] "GET /favicon.ico HTTP/1.1" 404 2193
+Not Found: /robots.txt
+[17/Aug/2020 04:52:25] "GET /robots.txt HTTP/1.1" 404 2190
+[17/Aug/2020 04:52:25] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[17/Aug/2020 04:52:25] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[17/Aug/2020 04:52:25] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[17/Aug/2020 04:52:25] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1692
+[17/Aug/2020 04:52:25] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1710
+[17/Aug/2020 04:52:25] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[17/Aug/2020 04:52:26] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Aug/2020 04:52:26] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /404.html
+[17/Aug/2020 04:52:26] "GET /404.html HTTP/1.1" 404 2184
+Not Found: /500.html
+[17/Aug/2020 04:52:26] "GET /500.html HTTP/1.1" 404 2184
+Not Found: /stylesheets/application.css
+[17/Aug/2020 04:52:26] "GET /stylesheets/application.css HTTP/1.1" 404 2241
+Not Found: /r/cms/www/red/img/prompt.jpg
+[17/Aug/2020 04:52:26] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 2244
+Not Found: /r/cms/www/red/style/swiper.min.js
+[17/Aug/2020 04:52:26] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 2259
+Not Found: /wcm/
+[17/Aug/2020 04:52:26] "GET /wcm/ HTTP/1.1" 404 2172
+Not Found: /phpMyAdmin/
+[17/Aug/2020 04:52:26] "GET /phpMyAdmin/ HTTP/1.1" 404 2193
+Not Found: /phpmyadmin/
+[17/Aug/2020 04:52:26] "GET /phpmyadmin/ HTTP/1.1" 404 2193
+[17/Aug/2020 07:11:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Aug/2020 07:11:49] "  /*à     Cookie: mstshash=Administr" 400 -
+[17/Aug/2020 07:50:18] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03_À\x05ÊÑ\x1cq¡°Z\x02\x01\x1eYzVl«×@\x17\x01\x8a\x06Z\x9c\xad×\x8dRÞ\x9d\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\tÀ\x14À')
+[17/Aug/2020 07:50:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Aug/2020 08:29:06] code 400, message Bad request syntax ('[\x00\x00\x00H\x00\x00\x00\x01\x10\x01\x00\x01\x04j\x00\x00\x01\x00\x00\x00\x00')
+[17/Aug/2020 08:29:06] "[   H    j      " 400 -
+[17/Aug/2020 10:02:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Aug/2020 10:02:22] "  /*à     Cookie: mstshash=Administr" 400 -
+[17/Aug/2020 14:49:35] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[17/Aug/2020 14:49:35] "  à          " 400 -
+[17/Aug/2020 18:15:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Aug/2020 18:15:29] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[17/Aug/2020 19:58:07] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[17/Aug/2020 20:36:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Aug/2020 20:36:17] "  /*à     Cookie: mstshash=Administr" 400 -
+[17/Aug/2020 21:01:59] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03W}Be\x19b\x96\x96ØQ\x86\xad\x8e\x17\x90DÈ\x15B·\x17]h\x0fÚ\x95Õ>\x86\x1a\x9fZ \x9d©rë¾\x1dQ!³´\x88\x03¸Ñ*OÕ¯(\x9euP\x0f\x9fÑ\x0c ×Ä\x14#L\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[17/Aug/2020 21:01:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Aug/2020 23:02:14] "GET / HTTP/1.1" 200 5893
+Not Found: /favicon.ico
+[17/Aug/2020 23:02:15] "GET /favicon.ico HTTP/1.1" 404 2193
+[17/Aug/2020 23:02:25] "GET / HTTP/1.1" 200 5893
+[18/Aug/2020 01:02:38] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[18/Aug/2020 01:02:38] " " 400 -
+[18/Aug/2020 01:02:43] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[18/Aug/2020 01:02:43] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[18/Aug/2020 01:02:47] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7fÿÆ\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[18/Aug/2020 01:02:47] " :     9,   ÿÆ      :   AA                        " 400 -
+[18/Aug/2020 01:02:51] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[18/Aug/2020 01:02:51] "  à          " 400 -
+[18/Aug/2020 01:02:56] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[18/Aug/2020 01:02:56] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[18/Aug/2020 01:02:56] code 400, message Bad request syntax ('info')
+[18/Aug/2020 01:02:56] "info" 400 -
+Not Found: /_cat
+[18/Aug/2020 01:02:56] "GET /_cat HTTP/1.1" 404 2181
+[18/Aug/2020 01:03:01] code 400, message Bad HTTP/0.9 request type ('\x80')
+[18/Aug/2020 01:03:01] "                      " 400 -
+[18/Aug/2020 01:03:05] code 400, message Bad request syntax ('\x00\x00\x00§A\x00\x00\x00\x00\x00\x00Ô\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+[18/Aug/2020 01:03:05] "   §A      Ô      admin.$cmd     ÿÿÿÿ   ismaster     " 400 -
+[18/Aug/2020 01:03:09] code 400, message Bad request syntax ('stat')
+[18/Aug/2020 01:03:09] "stat" 400 -
+[18/Aug/2020 01:03:09] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[18/Aug/2020 05:38:32] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[18/Aug/2020 07:13:08] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[18/Aug/2020 13:48:32] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[18/Aug/2020 15:16:35] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[18/Aug/2020 20:49:25] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[18/Aug/2020 20:49:25] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[18/Aug/2020 20:49:25] "GET / HTTP/1.1" 200 5893
+[18/Aug/2020 22:16:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Aug/2020 22:16:13] "  /*à     Cookie: mstshash=Administr" 400 -
+[18/Aug/2020 22:31:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Aug/2020 22:31:45] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[19/Aug/2020 00:55:31] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[19/Aug/2020 01:10:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[19/Aug/2020 01:10:19] "  /*à     Cookie: mstshash=Administr" 400 -
+[19/Aug/2020 09:12:42] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[19/Aug/2020 10:31:19] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[19/Aug/2020 13:32:18] "GET / HTTP/1.1" 200 5893
+[19/Aug/2020 13:48:31] code 400, message Bad request syntax ('\x00\x06\x00\x00\x01\x00A\x01\x00A\x00\x01\x00\x00')
+[19/Aug/2020 13:48:31] "    A A   " 400 -
+[19/Aug/2020 16:04:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[19/Aug/2020 16:04:55] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[19/Aug/2020 20:07:13] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[19/Aug/2020 22:08:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[19/Aug/2020 22:08:06] "  /*à     Cookie: mstshash=Administr" 400 -
+[19/Aug/2020 23:01:45] "GET / HTTP/1.1" 200 5893
+Not Found: /favicon.ico
+[19/Aug/2020 23:01:46] "GET /favicon.ico HTTP/1.1" 404 2193
+[19/Aug/2020 23:01:50] "GET / HTTP/1.1" 200 5893
+Not Found: /cityjson
+[20/Aug/2020 00:12:58] "GET /cityjson?ie=utf-8 HTTP/1.1" 404 2185
+[20/Aug/2020 00:13:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[20/Aug/2020 00:13:08] " " 400 -
+[20/Aug/2020 00:43:38] "GET / HTTP/1.1" 200 5893
+[20/Aug/2020 00:43:40] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[20/Aug/2020 01:02:51] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[20/Aug/2020 01:02:51] " " 400 -
+[20/Aug/2020 01:02:55] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[20/Aug/2020 01:02:55] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[20/Aug/2020 01:02:59] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7fÿÆ\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[20/Aug/2020 01:02:59] " :     9,   ÿÆ      :   AA                        " 400 -
+[20/Aug/2020 01:03:04] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[20/Aug/2020 01:03:04] "  à          " 400 -
+[20/Aug/2020 01:03:08] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[20/Aug/2020 01:03:08] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[20/Aug/2020 01:03:08] code 400, message Bad request syntax ('info')
+[20/Aug/2020 01:03:08] "info" 400 -
+Not Found: /_cat
+[20/Aug/2020 01:03:08] "GET /_cat HTTP/1.1" 404 2181
+[20/Aug/2020 01:03:13] code 400, message Bad HTTP/0.9 request type ('\x80')
+[20/Aug/2020 01:03:13] "                      " 400 -
+[20/Aug/2020 01:03:17] code 400, message Bad request syntax ('\x00\x00\x00§A\x00\x00\x00\x00\x00\x00Ô\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+[20/Aug/2020 01:03:17] "   §A      Ô      admin.$cmd     ÿÿÿÿ   ismaster     " 400 -
+[20/Aug/2020 01:03:22] code 400, message Bad request syntax ('stat')
+[20/Aug/2020 01:03:22] "stat" 400 -
+[20/Aug/2020 01:03:22] "GET / HTTP/1.1" 200 5893
+[20/Aug/2020 03:57:20] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[20/Aug/2020 06:14:03] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[20/Aug/2020 10:22:46] code 400, message Bad request syntax ('&&&&y\x860\x14<ÒiÖHË\x89\x02ÀË9³¥\x07')
+[20/Aug/2020 10:22:46] "&&&&y0<ÒiÖHËÀË9³¥" 400 -
+[20/Aug/2020 10:27:12] code 400, message Bad request syntax ('[\x00\x00\x00H\x00\x00\x00\x01\x10\x01\x00\x01\x04j\x00\x00\x01\x00\x00\x00\x00')
+[20/Aug/2020 10:27:12] "[   H    j      " 400 -
+Not Found: /http:/www.qq.com/404/search_children.js
+[20/Aug/2020 11:53:58] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+[20/Aug/2020 11:53:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00z\x01\x00\x00v\x03\x03_>dVc=\x99-%*\x14îêîã&ê¥w<´\x11³')
+[20/Aug/2020 11:53:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Aug/2020 11:54:08] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[20/Aug/2020 11:54:08] " PpTi4 " 400 -
+[20/Aug/2020 11:54:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[20/Aug/2020 11:54:08] " " 400 -
+[20/Aug/2020 11:54:08] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x03ÿÿ\x00\x01local\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00cananian\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[20/Aug/2020 11:54:08] "  +<M            ÿÿ local                                                           cananian                                                        " 400 -
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 04, 2020 - 09:07:32
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2020 - 12:20:01
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2020 - 12:23:55
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7ff02acac8c8>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/autoreload.py", line 225, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ubuntu/django/Hostojgrade/Hostojgrade/urls.py", line 23, in <module>
+    path('download',send_zipfile)
+NameError: name 'send_zipfile' is not defined
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7fb64bacc8c8>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/autoreload.py", line 225, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ubuntu/django/Hostojgrade/Hostojgrade/urls.py", line 23, in <module>
+    path('download',send_zipfile)
+NameError: name 'send_zipfile' is not defined
+Performing system checks...
+
+[20/Aug/2020 12:32:48] "GET / HTTP/1.1" 200 5893
+[20/Aug/2020 12:32:48] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[20/Aug/2020 12:32:48] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[20/Aug/2020 12:32:48] "GET /static/css/style.css HTTP/1.1" 200 16596
+[20/Aug/2020 12:32:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[20/Aug/2020 12:32:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[20/Aug/2020 12:32:48] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[20/Aug/2020 12:32:48] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[20/Aug/2020 12:32:49] "GET /static/js/app.js HTTP/1.1" 200 3703
+[20/Aug/2020 12:32:49] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[20/Aug/2020 12:32:49] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[20/Aug/2020 12:32:49] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[20/Aug/2020 12:32:49] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[20/Aug/2020 12:32:49] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[20/Aug/2020 12:32:49] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[20/Aug/2020 12:32:49] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[20/Aug/2020 12:32:50] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[20/Aug/2020 12:32:50] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[20/Aug/2020 12:32:52] "GET /favicon.ico HTTP/1.1" 404 2301
+[20/Aug/2020 12:32:55] "GET / HTTP/1.1" 200 5893
+[20/Aug/2020 12:32:55] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+Internal Server Error: /download
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 19, in send_zipfile
+    if not os.path.isfile(r'/home/ubuntu/ke.rar'):
+NameError: name 'os' is not defined
+[20/Aug/2020 12:32:57] "GET /download HTTP/1.1" 500 62079
+Not Found: /favicon.ico
+[20/Aug/2020 12:32:57] "GET /favicon.ico HTTP/1.1" 404 2301
+Internal Server Error: /download
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 19, in send_zipfile
+    if not os.path.isfile(r'/home/ubuntu/ke.rar'):
+NameError: name 'os' is not defined
+[20/Aug/2020 12:33:13] "GET /download HTTP/1.1" 500 62079
+Internal Server Error: /download
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 19, in send_zipfile
+    if not os.path.isfile(r'/home/ubuntu/ke.rar'):
+NameError: name 'os' is not defined
+[20/Aug/2020 12:33:16] "GET /download HTTP/1.1" 500 62079
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2020 - 12:32:36
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[20/Aug/2020 12:33:23] "GET /download HTTP/1.1" 200 28
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2020 - 12:33:23
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[20/Aug/2020 13:13:02] "GET /download HTTP/1.1" 200 28
+[20/Aug/2020 13:13:03] "GET /download HTTP/1.1" 200 28
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2020 - 13:13:00
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[20/Aug/2020 13:13:11] "GET /download HTTP/1.1" 200 30
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2020 - 13:13:11
+Django version 2.1.3, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[20/Aug/2020 13:13:45] "GET /download HTTP/1.1" 200 30
+[20/Aug/2020 13:13:46] "GET /download HTTP/1.1" 200 30
+Not Found: /http:/www.rfa.org/
+[20/Aug/2020 13:18:53] "GET http://www.rfa.org/ HTTP/1.1" 404 1661
+Not Found: /http:/wujieliulan.com/
+[20/Aug/2020 13:18:53] "GET http://wujieliulan.com/ HTTP/1.1" 404 1677
+Not Found: /http:/www.minghui.org/
+[20/Aug/2020 13:18:53] "GET http://www.minghui.org/ HTTP/1.1" 404 1677
+Not Found: /http:/www.epochtimes.com/
+[20/Aug/2020 13:18:53] "GET http://www.epochtimes.com/ HTTP/1.1" 404 1689
+Not Found: /http:/www.boxun.com/
+[20/Aug/2020 13:18:53] "GET http://www.boxun.com/ HTTP/1.1" 404 1669
+Not Found: /www.voanews.com:443
+[20/Aug/2020 13:18:53] "CONNECT www.voanews.com:443 HTTP/1.0" 404 1683
+Not Found: /http:/www.bing.com/
+[20/Aug/2020 13:18:53] "GET http://www.bing.com/ HTTP/1.1" 404 1665
+Not Found: /http:/www.123cha.com/
+[20/Aug/2020 13:18:53] "GET http://www.123cha.com/ HTTP/1.1" 404 1673
+Not Found: /http:/www.baidu.com/
+[20/Aug/2020 13:18:53] "GET http://www.baidu.com/ HTTP/1.1" 404 1669
+----------------------------------------
+Exception happened during processing of request from ('183.56.165.172', 57330)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[20/Aug/2020 14:26:28] "GET / HTTP/1.0" 200 5893
+[20/Aug/2020 14:26:28] code 400, message Bad HTTP/0.9 request type ('t3')
+[20/Aug/2020 14:26:28] "t3 12.1.2" 400 -
+Not Found: /nmaplowercheck1597933301
+[20/Aug/2020 14:26:28] "GET /nmaplowercheck1597933301 HTTP/1.1" 404 2340
+Not Found: /sdk
+[20/Aug/2020 14:26:28] "POST /sdk HTTP/1.1" 404 2278
+[20/Aug/2020 14:26:28] "GET / HTTP/1.0" 200 5893
+Not Found: /HNAP1
+[20/Aug/2020 14:26:28] "GET /HNAP1 HTTP/1.1" 404 2283
+Not Found: /evox/about
+[20/Aug/2020 14:26:28] "GET /evox/about HTTP/1.1" 404 2298
+[20/Aug/2020 14:26:28] "GET / HTTP/1.0" 200 5893
+[20/Aug/2020 14:26:28] "GET / HTTP/1.1" 200 5893
+[20/Aug/2020 14:26:28] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[20/Aug/2020 15:26:57] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[20/Aug/2020 15:34:56] "GET / HTTP/1.0" 200 5893
+[20/Aug/2020 21:23:37] "GET / HTTP/1.1" 200 5893
+[20/Aug/2020 21:32:52] "GET / HTTP/1.1" 200 5893
+[20/Aug/2020 21:44:59] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[21/Aug/2020 01:04:31] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /client_area/
+[21/Aug/2020 03:11:06] "GET /client_area/ HTTP/1.1" 404 2304
+Not Found: /system_api.php
+[21/Aug/2020 03:11:07] "GET /system_api.php HTTP/1.1" 404 2310
+Not Found: /streaming/clients_live.php
+[21/Aug/2020 03:11:08] "GET /streaming/clients_live.php HTTP/1.1" 404 2346
+Not Found: /stalker_portal/c/
+[21/Aug/2020 03:11:11] "GET /stalker_portal/c/ HTTP/1.1" 404 2319
+Not Found: /api.php
+[21/Aug/2020 03:11:12] "GET /api.php HTTP/1.1" 404 2289
+Not Found: /login.php
+[21/Aug/2020 03:11:14] "GET /login.php HTTP/1.1" 404 2295
+Not Found: /streaming
+[21/Aug/2020 03:11:16] "GET /streaming HTTP/1.1" 404 2295
+Not Found: /streaming/clients_live.php
+[21/Aug/2020 03:11:17] "GET /streaming/clients_live.php HTTP/1.1" 404 2346
+Not Found: /streaming/6LWT8tn0O.php
+[21/Aug/2020 03:11:17] "GET /streaming/6LWT8tn0O.php HTTP/1.1" 404 2337
+[21/Aug/2020 03:11:21] "GET / HTTP/1.1" 200 5893
+Not Found: /robots.txt
+[21/Aug/2020 05:49:01] "HEAD /robots.txt HTTP/1.0" 404 2308
+[21/Aug/2020 09:33:11] "GET / HTTP/1.1" 200 5893
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[21/Aug/2020 10:48:46] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[21/Aug/2020 11:11:33] "GET / HTTP/1.1" 200 5893
+[21/Aug/2020 14:27:30] "GET / HTTP/1.1" 200 5893
+[21/Aug/2020 16:23:50] "GET / HTTP/1.1" 200 5893
+[21/Aug/2020 17:38:39] "GET / HTTP/1.0" 200 5893
+[21/Aug/2020 18:01:30] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[21/Aug/2020 18:01:30] "  à          " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[21/Aug/2020 20:25:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[21/Aug/2020 21:05:54] "GET / HTTP/1.1" 200 5893
+[21/Aug/2020 23:47:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Aug/2020 23:47:25] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Aug/2020 01:54:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 01:54:32] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Aug/2020 02:22:13] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[22/Aug/2020 02:22:13] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[22/Aug/2020 03:00:47] "GET / HTTP/1.1" 200 5893
+[22/Aug/2020 03:41:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 03:41:46] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Aug/2020 04:12:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 04:12:06] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[22/Aug/2020 06:03:06] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[22/Aug/2020 06:19:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 06:19:21] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Aug/2020 06:54:54] "GET / HTTP/1.0" 200 5893
+[22/Aug/2020 12:12:32] "GET /download HTTP/1.1" 200 30
+Not Found: /favicon.ico
+[22/Aug/2020 12:12:32] "GET /favicon.ico HTTP/1.1" 404 2301
+[22/Aug/2020 12:13:24] "GET / HTTP/1.1" 200 5893
+[22/Aug/2020 12:13:24] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[22/Aug/2020 12:13:24] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[22/Aug/2020 12:13:24] "GET /static/css/style.css HTTP/1.1" 200 16596
+[22/Aug/2020 12:13:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[22/Aug/2020 12:13:24] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[22/Aug/2020 12:13:24] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[22/Aug/2020 12:13:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[22/Aug/2020 12:13:25] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[22/Aug/2020 12:13:25] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[22/Aug/2020 12:13:25] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[22/Aug/2020 12:13:25] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[22/Aug/2020 12:13:25] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[22/Aug/2020 12:13:25] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[22/Aug/2020 12:13:25] "GET /static/js/app.js HTTP/1.1" 200 3703
+[22/Aug/2020 12:13:26] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[22/Aug/2020 12:13:27] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[22/Aug/2020 12:13:27] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[22/Aug/2020 12:55:33] "GET / HTTP/1.1" 200 5942
+[22/Aug/2020 12:55:33] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[22/Aug/2020 12:55:35] "GET /ppt HTTP/1.1" 200 4161
+[22/Aug/2020 12:55:35] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[22/Aug/2020 12:55:36] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[22/Aug/2020 12:55:38] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[22/Aug/2020 12:55:40] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[22/Aug/2020 12:55:46] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[22/Aug/2020 14:10:27] "GET / HTTP/1.1" 200 5942
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[22/Aug/2020 15:39:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[22/Aug/2020 17:36:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 17:36:49] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Aug/2020 17:56:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 17:56:23] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Aug/2020 21:01:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 21:01:44] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Aug/2020 22:29:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Aug/2020 22:29:32] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2020 01:07:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 01:07:16] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Aug/2020 01:20:02] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[23/Aug/2020 05:27:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 05:27:23] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2020 07:41:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 07:41:48] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2020 07:58:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 07:58:32] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2020 11:50:20] code 400, message Bad HTTP/0.9 request type ('xx')
+[23/Aug/2020 11:50:20] "xxSA52b -" 400 -
+[23/Aug/2020 11:54:38] "GET / HTTP/1.1" 200 5942
+[23/Aug/2020 15:26:35] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[23/Aug/2020 15:26:35] "  à          " 400 -
+[23/Aug/2020 15:29:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 15:29:45] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2020 15:45:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 15:45:20] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2020 16:10:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 16:10:50] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2020 18:52:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 18:52:49] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Aug/2020 20:26:51] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[23/Aug/2020 20:27:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2020 20:27:22] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Aug/2020 20:38:25] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[24/Aug/2020 03:43:45] "GET / HTTP/1.1" 200 5942
+[24/Aug/2020 04:38:30] "GET / HTTP/1.1" 200 5942
+Not Found: /explicit_not_exist_path
+[24/Aug/2020 04:38:30] "GET /explicit_not_exist_path HTTP/1.1" 404 2440
+Not Found: /index.html
+[24/Aug/2020 04:38:30] "GET /index.html HTTP/1.1" 404 2401
+Not Found: /index.php
+[24/Aug/2020 04:38:30] "GET /index.php HTTP/1.1" 404 2398
+Not Found: /index.jsp
+[24/Aug/2020 04:38:30] "GET /index.jsp HTTP/1.1" 404 2398
+[24/Aug/2020 04:38:30] "GET /admin/ HTTP/1.1" 302 0
+[24/Aug/2020 04:38:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /favicon.ico
+[24/Aug/2020 04:38:31] "GET /favicon.ico HTTP/1.1" 404 2404
+Not Found: /robots.txt
+[24/Aug/2020 04:38:31] "GET /robots.txt HTTP/1.1" 404 2401
+[24/Aug/2020 04:38:31] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[24/Aug/2020 04:38:31] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[24/Aug/2020 04:38:31] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[24/Aug/2020 04:38:31] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1692
+[24/Aug/2020 04:38:31] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1710
+[24/Aug/2020 04:38:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[24/Aug/2020 04:38:31] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Aug/2020 04:38:31] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /404.html
+[24/Aug/2020 04:38:31] "GET /404.html HTTP/1.1" 404 2395
+Not Found: /500.html
+[24/Aug/2020 04:38:31] "GET /500.html HTTP/1.1" 404 2395
+Not Found: /stylesheets/application.css
+[24/Aug/2020 04:38:32] "GET /stylesheets/application.css HTTP/1.1" 404 2452
+Not Found: /r/cms/www/red/img/prompt.jpg
+[24/Aug/2020 04:38:32] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 2455
+Not Found: /r/cms/www/red/style/swiper.min.js
+[24/Aug/2020 04:38:32] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 2470
+Not Found: /wcm/
+[24/Aug/2020 04:38:32] "GET /wcm/ HTTP/1.1" 404 2383
+Not Found: /phpMyAdmin/
+[24/Aug/2020 04:38:32] "GET /phpMyAdmin/ HTTP/1.1" 404 2404
+Not Found: /phpmyadmin/
+[24/Aug/2020 04:38:32] "GET /phpmyadmin/ HTTP/1.1" 404 2404
+[24/Aug/2020 04:45:52] "GET / HTTP/1.1" 200 5942
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[24/Aug/2020 06:16:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[24/Aug/2020 06:35:55] "GET / HTTP/1.1" 200 5942
+[24/Aug/2020 07:43:50] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[24/Aug/2020 07:43:50] "  à          " 400 -
+[24/Aug/2020 15:07:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[24/Aug/2020 15:07:26] "  /*à     Cookie: mstshash=Administr" 400 -
+[24/Aug/2020 18:54:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[24/Aug/2020 18:54:29] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[24/Aug/2020 19:59:59] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[24/Aug/2020 21:06:17] "GET / HTTP/1.1" 200 5942
+[24/Aug/2020 21:15:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[24/Aug/2020 21:15:25] "  /*à     Cookie: mstshash=Administr" 400 -
+[24/Aug/2020 22:46:26] "GET / HTTP/1.1" 200 5942
+[24/Aug/2020 22:46:28] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Aug/2020 01:34:25] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[25/Aug/2020 02:25:29] "GET / HTTP/1.0" 200 5942
+Not Found: /nice ports,/Trinity.txt.bak
+[25/Aug/2020 02:25:31] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2463
+[25/Aug/2020 02:25:33] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[25/Aug/2020 02:25:33] "  " 400 -
+[25/Aug/2020 02:25:35] "OPTIONS / HTTP/1.0" 200 5942
+[25/Aug/2020 02:25:37] code 400, message Bad request version ('RTSP/1.0')
+[25/Aug/2020 02:25:37] "OPTIONS / RTSP/1.0" 400 -
+[25/Aug/2020 02:25:43] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[25/Aug/2020 02:25:43] "  (rþ          |                    " 400 -
+[25/Aug/2020 02:25:48] code 400, message Bad HTTP/0.9 request type ('\x00')
+[25/Aug/2020 02:25:49] "          versionbind   " 400 -
+[25/Aug/2020 02:25:49] code 400, message Bad request syntax ('HELP')
+[25/Aug/2020 02:25:49] "HELP" 400 -
+[25/Aug/2020 02:25:50] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[25/Aug/2020 02:25:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Aug/2020 02:25:56] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[25/Aug/2020 02:25:56] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[25/Aug/2020 02:25:56] code 400, message Bad request syntax ('\x01default')
+[25/Aug/2020 02:25:56] "default" 400 -
+[25/Aug/2020 02:25:57] code 400, message Bad request version ('SIP/2.0')
+[25/Aug/2020 02:25:57] "OPTIONS sip:nm SIP/2.0" 400 -
+[25/Aug/2020 02:26:02] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[25/Aug/2020 02:26:02] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[25/Aug/2020 02:26:02] "GET /?CAVIT HTTP/1.1" 200 5942
+Not Found: /nmaplowercheck1598322681
+[25/Aug/2020 02:31:23] "GET /nmaplowercheck1598322681 HTTP/1.1" 404 2443
+Not Found: /evox/about
+[25/Aug/2020 02:31:23] "GET /evox/about HTTP/1.1" 404 2401
+Not Found: /sdk
+[25/Aug/2020 02:31:34] "POST /sdk HTTP/1.1" 404 2381
+[25/Aug/2020 02:31:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÐÈ±\x13\x92N\x17B&vÈ±zÈu&\x08\x168\x8c²\x04)=\x17\x8fxÃeï¦Î')
+[25/Aug/2020 02:31:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /HNAP1
+[25/Aug/2020 02:31:44] "GET /HNAP1 HTTP/1.1" 404 2386
+[25/Aug/2020 02:32:04] "GET / HTTP/1.1" 200 5942
+[25/Aug/2020 03:50:30] "GET / HTTP/1.1" 200 5942
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Aug/2020 03:52:12] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[25/Aug/2020 05:36:07] code 400, message Bad request version ('À\x14À')
+[25/Aug/2020 05:36:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Aug/2020 08:06:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Aug/2020 08:06:39] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Aug/2020 11:15:20] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Aug/2020 11:43:27] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[25/Aug/2020 13:02:24] "GET / HTTP/1.1" 200 5942
+[25/Aug/2020 13:02:25] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[25/Aug/2020 13:02:25] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[25/Aug/2020 13:02:25] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[25/Aug/2020 13:02:25] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[25/Aug/2020 13:02:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[25/Aug/2020 13:02:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[25/Aug/2020 13:02:26] "GET /static/css/style.css HTTP/1.1" 200 16596
+[25/Aug/2020 13:02:26] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[25/Aug/2020 13:02:26] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[25/Aug/2020 13:02:26] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[25/Aug/2020 13:02:26] "GET /static/js/app.js HTTP/1.1" 200 3703
+[25/Aug/2020 13:02:26] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[25/Aug/2020 13:02:26] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[25/Aug/2020 13:02:27] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1754
+[25/Aug/2020 13:02:27] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+----------------------------------------
+Exception happened during processing of request from ('35.224.100.159', 65272)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Aug/2020 14:09:02] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[25/Aug/2020 14:09:02] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[25/Aug/2020 14:09:02] "GET / HTTP/1.1" 200 5942
+[25/Aug/2020 14:15:01] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03\x94N¶=Ý4?ÝÀ\x95}/\x9b\x91\x8eÊåC\x1b\x15\x1a\x1aGïÙ&Ï2\x0f»èÐ \x0c\x86©¯û»°\x1d>\x02TJòé\xad,ð\x13\x843÷à\x9f\x15·\x03\x1c\x14\x88ç¨(\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[25/Aug/2020 14:15:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Aug/2020 14:31:57] "HEAD / HTTP/1.0" 200 5942
+[25/Aug/2020 17:13:21] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[25/Aug/2020 17:13:21] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[25/Aug/2020 17:13:21] "GET / HTTP/1.1" 200 5942
+[25/Aug/2020 17:37:08] "GET / HTTP/1.1" 200 5942
+Not Found: /favicon.ico
+[25/Aug/2020 17:37:09] "GET /favicon.ico HTTP/1.1" 404 2404
+[25/Aug/2020 17:37:26] "GET / HTTP/1.1" 200 5942
+[25/Aug/2020 18:33:34] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Aug/2020 18:33:34] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Aug/2020 18:47:27] "GET / HTTP/1.1" 200 5942
+[25/Aug/2020 18:47:29] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+----------------------------------------
+Exception happened during processing of request from ('195.54.160.83', 28313)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Aug/2020 18:56:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Aug/2020 18:56:47] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Aug/2020 18:56:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Aug/2020 18:56:48] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Aug/2020 19:05:40] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03£+É\xa0ÛH»\x8b¹\x1e.`¢·EÈsAãÈ\x1b\x96ë\x19è¢ú\x14â¢ê³ UJH±Ý\x06ÒÌþ#öo\x15Cí\x85¢\x7fÂº\x9fbÍýi\x7f\x82äªá;8\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[25/Aug/2020 19:05:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Aug/2020 19:33:49] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Aug/2020 20:53:56] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[25/Aug/2020 22:21:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Aug/2020 22:21:44] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[26/Aug/2020 03:26:03] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[26/Aug/2020 06:52:08] "GET / HTTP/1.0" 200 5942
+[26/Aug/2020 06:52:14] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[26/Aug/2020 06:52:14] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[26/Aug/2020 06:52:14] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2463
+[26/Aug/2020 06:52:15] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[26/Aug/2020 06:52:15] "  " 400 -
+[26/Aug/2020 06:52:21] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[26/Aug/2020 06:52:21] "   root " 400 -
+[26/Aug/2020 06:52:21] "OPTIONS / HTTP/1.0" 200 5942
+[26/Aug/2020 06:52:22] code 400, message Bad request version ('RTSP/1.0')
+[26/Aug/2020 06:52:22] "OPTIONS / RTSP/1.0" 400 -
+[26/Aug/2020 06:52:27] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[26/Aug/2020 06:52:27] "  (rþ          |                    " 400 -
+[26/Aug/2020 06:52:32] code 400, message Bad HTTP/0.9 request type ('\x00')
+[26/Aug/2020 06:52:32] "          versionbind   " 400 -
+[26/Aug/2020 06:52:39] code 400, message Bad HTTP/0.9 request type ('\x00')
+[26/Aug/2020 06:52:39] "            " 400 -
+[26/Aug/2020 06:52:39] code 400, message Bad request syntax ('HELP')
+[26/Aug/2020 06:52:39] "HELP" 400 -
+[26/Aug/2020 06:52:41] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[26/Aug/2020 06:52:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Aug/2020 06:52:42] code 400, message Bad request version ('\x00/\x00')
+[26/Aug/2020 06:52:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Aug/2020 06:52:43] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[26/Aug/2020 06:52:43] "   qjn0k¡¢" 400 -
+[26/Aug/2020 06:52:48] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[26/Aug/2020 06:52:48] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[26/Aug/2020 06:52:50] code 400, message Bad request syntax ('\x01default')
+[26/Aug/2020 06:52:50] "default" 400 -
+[26/Aug/2020 06:52:54] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[26/Aug/2020 06:52:54] "0   -c   $ " 400 -
+[26/Aug/2020 06:52:59] code 400, message Bad HTTP/0.9 request type ('0')
+[26/Aug/2020 06:52:59] "0`  " 400 -
+[26/Aug/2020 06:52:59] code 400, message Bad request version ('SIP/2.0')
+[26/Aug/2020 06:52:59] "OPTIONS sip:nm SIP/2.0" 400 -
+[26/Aug/2020 06:53:07] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[26/Aug/2020 06:53:07] "TNMP   TNME   " 400 -
+[26/Aug/2020 06:53:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[26/Aug/2020 06:53:12] "  à     " 400 -
+[26/Aug/2020 06:53:18] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[26/Aug/2020 06:53:18] "DmdT           ÿÿ" 400 -
+[26/Aug/2020 06:53:24] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[26/Aug/2020 06:53:24] ":   /     @  =            /         @                 " 400 -
+[26/Aug/2020 06:53:29] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[26/Aug/2020 06:53:29] "JRMI K" 400 -
+[26/Aug/2020 06:53:34] code 400, message Bad request syntax ('\x01\x00\x00ýÎú\x0b°\xa0\x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[26/Aug/2020 06:53:34] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[26/Aug/2020 06:53:40] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[26/Aug/2020 06:53:40] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[26/Aug/2020 06:53:45] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[26/Aug/2020 06:53:45] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[26/Aug/2020 06:53:50] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[26/Aug/2020 06:53:50] "              " 400 -
+[26/Aug/2020 06:53:55] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[26/Aug/2020 06:53:55] "GIOP  $                abcdef     get     " 400 -
+Not Found: /sdk
+[26/Aug/2020 06:54:02] "POST /sdk HTTP/1.1" 404 2381
+Not Found: /http:/112.124.42.80:63435/
+[26/Aug/2020 07:13:03] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 1694
+[26/Aug/2020 08:34:33] "GET / HTTP/1.0" 200 5942
+[26/Aug/2020 08:47:23] "GET / HTTP/1.0" 200 5942
+[26/Aug/2020 08:47:23] "GET / HTTP/1.0" 200 5942
+[26/Aug/2020 15:07:59] "GET / HTTP/1.1" 200 5942
+[26/Aug/2020 15:07:59] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[26/Aug/2020 15:07:59] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[26/Aug/2020 15:07:59] "GET /static/css/style.css HTTP/1.1" 200 16596
+[26/Aug/2020 15:07:59] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[26/Aug/2020 15:07:59] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[26/Aug/2020 15:07:59] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[26/Aug/2020 15:07:59] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[26/Aug/2020 15:07:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[26/Aug/2020 15:07:59] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[26/Aug/2020 15:07:59] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[26/Aug/2020 15:07:59] "GET /static/js/app.js HTTP/1.1" 200 3703
+[26/Aug/2020 15:07:59] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[26/Aug/2020 15:07:59] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[26/Aug/2020 15:07:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[26/Aug/2020 15:07:59] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[26/Aug/2020 15:07:59] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[26/Aug/2020 15:07:59] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[26/Aug/2020 15:07:59] "GET /favicon.ico HTTP/1.1" 404 2403
+[26/Aug/2020 15:31:42] "GET / HTTP/1.1" 200 5942
+[26/Aug/2020 15:31:42] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[26/Aug/2020 15:49:14] "GET / HTTP/1.1" 200 5945
+[26/Aug/2020 15:49:14] "GET /static/css/style.css HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/classie.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[26/Aug/2020 15:49:14] "GET /static/js/app.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[26/Aug/2020 15:49:14] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET / HTTP/1.1" 200 5945
+[26/Aug/2020 15:49:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/classie.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/app.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[26/Aug/2020 15:49:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[26/Aug/2020 15:49:15] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[26/Aug/2020 15:49:17] "GET /ppt HTTP/1.1" 200 4161
+[26/Aug/2020 15:49:17] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+Not Found: /favicon.ico
+[26/Aug/2020 15:49:17] "GET /favicon.ico HTTP/1.1" 404 2403
+[26/Aug/2020 15:59:47] "GET / HTTP/1.1" 200 5945
+[26/Aug/2020 15:59:47] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 02:34:35] "GET / HTTP/1.1" 200 5945
+[30/Aug/2020 02:34:35] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[30/Aug/2020 02:34:35] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[30/Aug/2020 02:34:35] "GET /static/css/style.css HTTP/1.1" 200 16596
+[30/Aug/2020 02:34:35] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[30/Aug/2020 02:34:35] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[30/Aug/2020 02:34:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[30/Aug/2020 02:34:36] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 02:34:36] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[30/Aug/2020 02:34:36] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[30/Aug/2020 02:34:36] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[30/Aug/2020 02:34:36] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[30/Aug/2020 02:34:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[30/Aug/2020 02:34:36] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[30/Aug/2020 02:34:36] "GET /static/js/app.js HTTP/1.1" 200 3703
+[30/Aug/2020 02:34:36] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[30/Aug/2020 02:34:36] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[30/Aug/2020 02:34:36] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[30/Aug/2020 02:34:36] "GET /favicon.ico HTTP/1.1" 404 2403
+[30/Aug/2020 02:41:40] "GET / HTTP/1.1" 200 5945
+[30/Aug/2020 02:41:40] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 03:55:56] "GET / HTTP/1.1" 200 5945
+[30/Aug/2020 03:55:57] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[30/Aug/2020 03:55:57] "GET /static/css/style.css HTTP/1.1" 200 16596
+[30/Aug/2020 03:55:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[30/Aug/2020 03:55:57] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[30/Aug/2020 03:55:57] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[30/Aug/2020 03:55:57] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[30/Aug/2020 03:55:57] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[30/Aug/2020 03:55:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[30/Aug/2020 03:55:57] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[30/Aug/2020 03:55:57] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[30/Aug/2020 03:55:57] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 03:55:57] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[30/Aug/2020 03:55:57] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[30/Aug/2020 03:55:57] "GET /static/js/app.js HTTP/1.1" 200 3703
+[30/Aug/2020 03:55:57] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[30/Aug/2020 03:55:57] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[30/Aug/2020 03:55:57] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[30/Aug/2020 03:55:57] "GET /favicon.ico HTTP/1.1" 404 2403
+[30/Aug/2020 06:01:18] "GET / HTTP/1.1" 200 5945
+[30/Aug/2020 06:01:18] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/css/style.css HTTP/1.1" 200 16596
+[30/Aug/2020 06:01:18] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[30/Aug/2020 06:01:18] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[30/Aug/2020 06:01:18] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[30/Aug/2020 06:01:18] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[30/Aug/2020 06:01:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/js/app.js HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 06:01:18] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[30/Aug/2020 06:01:18] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[30/Aug/2020 06:01:19] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[30/Aug/2020 06:01:40] "GET / HTTP/1.1" 200 5945
+[30/Aug/2020 06:01:40] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 06:57:37] "GET / HTTP/1.1" 200 5945
+[30/Aug/2020 06:57:37] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:15:28] "GET / HTTP/1.1" 200 5950
+[30/Aug/2020 07:15:28] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:15:37] "GET / HTTP/1.1" 200 5950
+[30/Aug/2020 07:15:37] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:15:56] "GET / HTTP/1.1" 200 5947
+[30/Aug/2020 07:15:56] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:15:57] "GET / HTTP/1.1" 200 5947
+[30/Aug/2020 07:15:57] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:15:58] "GET / HTTP/1.1" 200 5947
+[30/Aug/2020 07:15:58] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:16:02] "GET / HTTP/1.1" 200 5947
+[30/Aug/2020 07:16:02] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:16:12] "GET / HTTP/1.1" 200 5946
+[30/Aug/2020 07:16:12] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 07:28:57] "GET / HTTP/1.1" 200 5946
+[30/Aug/2020 07:28:57] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 26, 2020 - 15:31:40
+Django version 2.0, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[30/Aug/2020 08:12:02] "GET / HTTP/1.1" 200 5946
+[30/Aug/2020 08:12:03] "GET /static/css/style.css HTTP/1.1" 200 16596
+[30/Aug/2020 08:12:03] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[30/Aug/2020 08:12:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[30/Aug/2020 08:12:03] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[30/Aug/2020 08:12:03] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[30/Aug/2020 08:12:03] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[30/Aug/2020 08:12:03] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 08:12:03] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[30/Aug/2020 08:12:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[30/Aug/2020 08:12:03] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[30/Aug/2020 08:12:03] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[30/Aug/2020 08:12:03] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[30/Aug/2020 08:12:03] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[30/Aug/2020 08:12:03] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[30/Aug/2020 08:12:03] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+[30/Aug/2020 08:12:03] "GET /static/js/app.js HTTP/1.1" 200 3703
+[30/Aug/2020 08:12:03] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+Not Found: /favicon.ico
+[30/Aug/2020 08:12:03] "GET /favicon.ico HTTP/1.1" 404 2403
+[30/Aug/2020 08:12:26] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 08:44:49] "GET / HTTP/1.1" 200 5946
+[30/Aug/2020 08:44:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[30/Aug/2020 08:44:49] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[30/Aug/2020 08:44:49] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[30/Aug/2020 08:44:49] "GET /static/css/style.css HTTP/1.1" 200 16596
+[30/Aug/2020 08:44:49] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[30/Aug/2020 08:44:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[30/Aug/2020 08:44:49] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[30/Aug/2020 08:44:49] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[30/Aug/2020 08:44:49] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[30/Aug/2020 08:44:49] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[30/Aug/2020 08:44:49] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[30/Aug/2020 08:44:49] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[30/Aug/2020 08:44:49] "GET /static/js/app.js HTTP/1.1" 200 3703
+[30/Aug/2020 08:44:49] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 08:44:49] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[30/Aug/2020 08:44:49] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[30/Aug/2020 08:44:50] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[30/Aug/2020 08:44:50] "GET /favicon.ico HTTP/1.1" 404 2403
+[30/Aug/2020 08:45:06] "GET /ppt HTTP/1.1" 200 4161
+[30/Aug/2020 08:45:07] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 08:45:57] "GET /ppt HTTP/1.1" 200 4161
+[30/Aug/2020 08:45:57] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 15:24:35] "GET / HTTP/1.1" 200 5946
+[30/Aug/2020 15:24:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/css/style.css HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[30/Aug/2020 15:24:35] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/classie.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/js/app.js HTTP/1.1" 304 0
+[30/Aug/2020 15:24:35] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[30/Aug/2020 15:46:28] "GET / HTTP/1.1" 200 5946
+[30/Aug/2020 15:46:28] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[31/Aug/2020 00:50:28] "GET / HTTP/1.1" 200 5946
+[31/Aug/2020 00:50:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[31/Aug/2020 00:50:28] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[31/Aug/2020 00:50:28] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[31/Aug/2020 00:50:28] "GET /static/css/style.css HTTP/1.1" 200 16596
+[31/Aug/2020 00:50:28] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[31/Aug/2020 00:50:28] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[31/Aug/2020 00:50:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[31/Aug/2020 00:50:28] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[31/Aug/2020 00:50:28] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[31/Aug/2020 00:50:28] "GET /static/js/app.js HTTP/1.1" 200 3703
+[31/Aug/2020 00:50:28] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[31/Aug/2020 00:50:28] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[31/Aug/2020 00:50:28] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[31/Aug/2020 00:50:28] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[31/Aug/2020 00:50:28] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[31/Aug/2020 00:50:28] "GET /static/css/style.css HTTP/1.1" 200 16596
+[31/Aug/2020 00:50:28] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[31/Aug/2020 00:50:29] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[31/Aug/2020 00:50:29] "GET /favicon.ico HTTP/1.1" 404 2403
+[31/Aug/2020 14:21:58] "GET / HTTP/1.1" 200 5946
+[31/Aug/2020 14:21:58] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[31/Aug/2020 14:21:58] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[31/Aug/2020 14:21:58] "GET /static/css/style.css HTTP/1.1" 200 16596
+[31/Aug/2020 14:21:58] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[31/Aug/2020 14:21:58] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[31/Aug/2020 14:21:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[31/Aug/2020 14:21:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[31/Aug/2020 14:21:58] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[31/Aug/2020 14:21:58] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[31/Aug/2020 14:21:58] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[31/Aug/2020 14:21:58] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[31/Aug/2020 14:21:58] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[31/Aug/2020 14:21:58] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[31/Aug/2020 14:21:58] "GET /static/js/app.js HTTP/1.1" 200 3703
+[31/Aug/2020 14:21:59] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[31/Aug/2020 14:21:59] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[31/Aug/2020 14:21:59] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[31/Aug/2020 14:21:59] "GET /favicon.ico HTTP/1.1" 404 2403
+[31/Aug/2020 14:23:08] "GET / HTTP/1.1" 200 5946
+[31/Aug/2020 14:23:08] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[31/Aug/2020 14:47:37] "GET / HTTP/1.1" 200 5946
+[31/Aug/2020 14:47:37] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Aug/2020 14:47:37] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[31/Aug/2020 14:47:37] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:37] "GET /static/js/classie.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[31/Aug/2020 14:47:38] "GET /static/js/app.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[31/Aug/2020 14:47:38] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[01/Sep/2020 14:17:38] "GET / HTTP/1.1" 200 5946
+[01/Sep/2020 14:17:38] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21987
+[01/Sep/2020 14:17:38] "GET /static/css/style.css HTTP/1.1" 200 16596
+[01/Sep/2020 14:17:38] "GET /static/css/animate.min.css HTTP/1.1" 200 53436
+[01/Sep/2020 14:17:38] "GET /static/js/pace.min.js HTTP/1.1" 200 12332
+[01/Sep/2020 14:17:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 113502
+[01/Sep/2020 14:17:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 35607
+[01/Sep/2020 14:17:38] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 200 84247
+[01/Sep/2020 14:17:38] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[01/Sep/2020 14:17:38] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 200 1073
+[01/Sep/2020 14:17:38] "GET /static/js/classie.js HTTP/1.1" 200 2214
+[01/Sep/2020 14:17:38] "GET /static/js/wow.min.js HTTP/1.1" 200 7084
+[01/Sep/2020 14:17:38] "GET /static/js/inspinia.js HTTP/1.1" 200 821
+[01/Sep/2020 14:17:38] "GET /static/js/app.js HTTP/1.1" 200 3703
+[01/Sep/2020 14:17:38] "GET /static/js/particles.min.js HTTP/1.1" 200 23364
+[01/Sep/2020 14:17:38] "GET /static/img/word_map.png HTTP/1.1" 200 35386
+[01/Sep/2020 14:17:38] "GET /static/img/perspective.png HTTP/1.1" 200 148804
+[01/Sep/2020 14:17:39] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+Not Found: /favicon.ico
+[01/Sep/2020 14:17:39] "GET /favicon.ico HTTP/1.1" 404 2403
+[01/Sep/2020 14:17:50] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[02/Sep/2020 12:55:55] "GET / HTTP/1.1" 200 5946
+[02/Sep/2020 12:55:55] "GET /static/css/style.css HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[02/Sep/2020 12:55:55] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/classie.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/js/app.js HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[02/Sep/2020 12:55:55] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+[02/Sep/2020 12:56:04] "GET / HTTP/1.1" 200 5946
+[02/Sep/2020 12:56:04] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 02, 2020 - 12:55:53
+Django version 2.0, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[03/Sep/2020 02:19:26] "GET / HTTP/1.1" 200 5946
+[03/Sep/2020 02:19:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/css/animate.min.css HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/css/style.css HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/jquery-2.1.1.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/classie.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/cbpAnimatedHeader.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/wow.min.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[03/Sep/2020 02:19:26] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/particles.min.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/img/perspective.png HTTP/1.1" 304 0
+[03/Sep/2020 02:19:26] "GET /static/js/app.js HTTP/1.1" 304 0
+[03/Sep/2020 02:19:27] "GET /static/img/word_map.png HTTP/1.1" 304 0
+[03/Sep/2020 02:19:27] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[03/Sep/2020 02:19:27] "GET /favicon.ico HTTP/1.1" 404 2403
+[03/Sep/2020 02:19:31] "GET /ppt HTTP/1.1" 200 4161
+[03/Sep/2020 02:19:31] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 200 0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('10.170.63.89', 64329)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 200 0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('10.170.63.89', 64330)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 200 0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('10.170.63.89', 64331)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 200 0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('10.170.63.89', 64332)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 200 0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('10.170.63.89', 64333)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 200 0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+[03/Sep/2020 02:19:33] "GET /download HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('10.170.63.89', 64334)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 179, in finish_response
+    for data in self.result:
+  File "/home/ubuntu/django/Hostojgrade/Hustoj/views.py", line 34, in file_iterator
+    with open(file_path, mode='rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ke.rar'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 03, 2020 - 02:19:21
+Django version 2.0, using settings 'Hostojgrade.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+123
+123
+123
+123
+123
+123
+123
+123
+123
+123
+123
+123
+[03/Sep/2020 02:20:17] "GET /ppt HTTP/1.1" 200 4161
+[03/Sep/2020 02:20:17] "GET /static/css/fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext HTTP/1.1" 404 1753
+[03/Sep/2020 02:20:19] "GET /download HTTP/1.1" 200 4078783
